@@ -1,5 +1,4 @@
 using System.Text;
-using System.Text.RegularExpressions;
 
 // Static class for evaluating expressions in Reverse Polish Notation (RPN)
 static class RPN
@@ -23,7 +22,7 @@ static class RPN
     private static double EvaluatePostfix(string input)
     {
         // Tokenize the postfix expression
-        string[] tokens = Tokenize(input);
+        string[] tokens = Tokenizer.Tokenize(input);
         // Stack to store operands during evaluation
         Stack<double> stack = new Stack<double>();
 
@@ -76,7 +75,7 @@ static class RPN
     private static string InfixToPostfix(string input)
     {
         // Tokenize the infix expression
-        string[] tokens = Tokenize(input);
+        string[] tokens = Tokenizer.Tokenize(input);
         // StringBuilder to store the postfix expression
         StringBuilder output = new StringBuilder();
         // Stack to store operators during conversion
@@ -150,21 +149,6 @@ static class RPN
 
         // Return the postfix expression as a string
         return output.ToString().Trim();
-    }
-
-    // Method to tokenize the input string
-    private static string[] Tokenize(string input)
-    {
-        List<string> tokens = new List<string>();
-        // Regular expression pattern to match numeric values and operators
-        string pattern = @"(\d+(\.\d+)?)|[\+\-\*/\^\(\)]";
-        foreach (Match match in Regex.Matches(input, pattern))
-        {
-            // Add matched tokens to the list
-            tokens.Add(match.Value);
-        }
-        // Convert the list to an array and return
-        return tokens.ToArray();
     }
 
     // Method to get the precedence level of an operator
