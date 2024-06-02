@@ -26,3 +26,4 @@ class Program
 ## Acknowledgments
 
 - Thanks to the contributors of the Stack Overflow community for their valuable insights and solutions.
+- Also thanks to ChatGPT for the error handling and documentation :D
