@@ -71,7 +71,7 @@ static class RPN
         return stack.Pop();
     }
 
-    // Method to convert infix expression to postfix
+    // Method to convert infix expression to postfix (based on shunting yard algorithm)
     private static string InfixToPostfix(string input)
     {
         // Tokenize the infix expression
