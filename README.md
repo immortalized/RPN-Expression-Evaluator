@@ -34,7 +34,7 @@ class Program
 
 <details>
   <summary>
-    Results
+    Results (109 out of 109 correct)
   </summary>
     
 ```diff
