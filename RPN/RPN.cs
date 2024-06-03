@@ -34,27 +34,61 @@ static class RPN
                 // Push numeric value onto the stack
                 stack.Push(number);
             }
+            // Check if token is a function
+            else if (IsFunction(token))
+            {
+                //Pop one operand from the stack
+                double n = stack.Pop();
+
+                // Perform the operation based on the function
+                stack.Push(token switch
+                {
+                    "sqrt" => Math.Sqrt(n),
+                    "sin" => Math.Sin(n * Math.PI / 180.0),
+                    "cos" => Math.Cos(n * Math.PI / 180.0),
+                    "tan" => Math.Tan(n * Math.PI / 180.0),
+                    "asin" => Math.Asin(n * Math.PI / 180.0),
+                    "acos" => Math.Acos(n * Math.PI / 180.0),
+                    "atan" => Math.Atan(n * Math.PI / 180.0),
+                    "exp" => Math.Exp(n),
+                    "log" => Math.Log(n),
+                    "lg" => Math.Log2(n),
+                    "ln" => Math.Log(Math.E, n),
+                    _ => throw new InvalidOperationException("Unsupported function.")
+                });
+            }
             // Check if token is an operator
             else if (IsOperator(token))
             {
                 // Ensure there are enough operands on the stack for the operation
-                if (stack.Count < 2)
+                if (stack.Count < 1)
                     throw new InvalidOperationException("Insufficient operands.");
 
-                // Pop two operands from the stack
-                double n2 = stack.Pop();
-                double n1 = stack.Pop();
-
                 // Perform the operation based on the operator
-                stack.Push(token switch
+                if (token == "!")
                 {
-                    "+" => n1 + n2,
-                    "-" => n1 - n2,
-                    "*" => n1 * n2,
-                    "/" => n1 / n2,
-                    "^" => Math.Pow(n1, n2),
-                    _ => throw new InvalidOperationException("Unsupported operator.")
-                });
+                    double n = stack.Pop();
+                    stack.Push(Factorial(n));
+                }
+                else
+                {
+                    // Ensure there are enough operands on the stack for the operation
+                    if (stack.Count < 2)
+                        throw new InvalidOperationException("Insufficient operands.");
+
+                    double n2 = stack.Pop();
+                    double n1 = stack.Pop();
+
+                    stack.Push(token switch
+                    {
+                        "+" => n1 + n2,
+                        "-" => n1 - n2,
+                        "*" => n1 * n2,
+                        "/" => n1 / n2,
+                        "^" => Math.Pow(n1, n2),
+                        _ => throw new InvalidOperationException("Unsupported operator.")
+                    });
+                }
             }
             else
             {
@@ -72,10 +106,10 @@ static class RPN
     }
 
     // Method to convert infix expression to postfix (based on shunting yard algorithm)
-    private static string InfixToPostfix(string input)
+    public static string InfixToPostfix(string input)
     {
         // Tokenize the infix expression
-        string[] tokens = Tokenizer.Tokenize(input);
+        string[] tokens = HandleConstants(Tokenizer.Tokenize(input));
         // StringBuilder to store the postfix expression
         StringBuilder output = new StringBuilder();
         // Stack to store operators during conversion
@@ -91,6 +125,10 @@ static class RPN
                 // Append numeric value to the output with a space separator
                 output.Append(token).Append(' ');
                 previousWasOperator = false;
+            }
+            else if (IsFunction(token))
+            {
+                operators.Push(token);
             }
             // Check if token is an operator
             else if (IsOperator(token))
@@ -128,6 +166,12 @@ static class RPN
                     throw new ArgumentException("Mismatched parentheses.");
                 // Pop the opening parenthesis from the stack
                 operators.Pop();
+
+                //Check if there's a function in the stack
+                if (operators.Count > 0 && IsFunction(operators.Peek()))
+                    //If there is append it to the output
+                    output.Append(operators.Pop()).Append(' ');
+
                 previousWasOperator = false;
             }
             else
@@ -151,6 +195,49 @@ static class RPN
         return output.ToString().Trim();
     }
 
+    private static double Factorial(double n)
+    {
+        if (n < 0 || !int.TryParse(n.ToString(), out _))
+            throw new ArgumentException("Factorial is not defined for negative numbers or non-integers.");
+
+        if (n == 0 || n == 1)
+            return 1;
+
+        double result = 1;
+        for (int i = 2; i <= n; i++)
+        {
+            result *= i;
+        }
+
+        return result;
+    }
+
+    //Method to replace constants to their value
+    private static string[] HandleConstants(string[] tokens)
+    {
+        for (int i = 0; i < tokens.Length; i++)
+        {
+            tokens[i] = (tokens[i] switch{
+                "Pi" or "pi" or "pI" or "PI" => Math.PI.ToString(),
+                "e" => Math.E.ToString(),
+                _ => tokens[i]
+            });
+        }
+
+        return tokens;
+    }
+
+    // Method to check if a token is a function
+    private static bool IsFunction(string token)
+    {
+        // Check if the token is one of the supported functions
+        return token switch
+        {
+            "sqrt" or "sin" or "cos" or "tan" or "asin" or "acos" or "atan" or "exp" or "log" or "lg" or "ln" => true,
+            _ => false
+        };
+    }
+
     // Method to get the precedence level of an operator
     private static int GetOperatorPrecedence(string op)
     {
@@ -159,7 +246,7 @@ static class RPN
         {
             "+" or "-" => 1,
             "*" or "/" => 2,
-            "^" => 3,
+            "^" or "!" => 3,
             _ => -1
         };
     }
@@ -170,7 +257,7 @@ static class RPN
         // Check if the token is one of the supported operators
         return token switch
         {
-            "+" or "-" or "*" or "/" or "^" => true,
+            "+" or "-" or "*" or "/" or "^" or "!" => true,
             _ => false
         };
     }
