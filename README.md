@@ -32,6 +32,11 @@ class Program
 
 ### Results
 
+<details>
+  <summary>
+    Results
+  </summary>
+    
 ```diff
 + Expression '5! + 3!' is correct. Expected: 126, Actual: 126
 + Expression 'sqrt(16) + exp(1)' is correct. Expected: 6.718281828459045, Actual: 6.718281828459045
@@ -142,8 +147,9 @@ class Program
 + Expression 'acos(0.8) + atan(10) / 7!' is correct. Expected: 1.5568675232711693, Actual: 1.5568675232711693
 + Expression 'log(65) + lg(50) / sqrt(45)' is correct. Expected: 5.015723676266919, Actual: 5.015723676266919
 + Expression 'asin(5)' is correct. Expected: 0.08737760592421796, Actual: 0.08737760592421796
-@@ Total correct expressions: 109/109
+! Total correct expressions: 109/109
 ```
+</details>
 
 ## Acknowledgments 🙏
 
