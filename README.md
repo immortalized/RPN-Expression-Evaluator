@@ -6,7 +6,6 @@ This is a simple C# implementation of an expression evaluator using the Reverse 
 
 1. Include the `RPN.cs` file in your project.
 2. Call the `RPN.Evaluate()` method with an infix expression as input to obtain the result.
-3. <span style="color:blue">some *blue* text</span>.
 
 Example:
 
