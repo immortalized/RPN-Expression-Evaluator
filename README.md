@@ -1,8 +1,8 @@
-# Reverse Polish Notation (RPN) Expression Evaluator
+# Reverse Polish Notation (RPN) Expression Evaluator 🧮
 
 This is a simple C# implementation of an expression evaluator using the Reverse Polish Notation (RPN).
 
-## Usage
+## Usage 🚀
 
 1. Include the `RPN.cs` file in your project.
 2. Call the `RPN.Evaluate()` method with an infix expression as input to obtain the result.
@@ -23,10 +23,11 @@ class Program
 }
 ```
 
-## Testing
+## Testing 🧪
 
 - The algorithm wasn't submitted to intense testing, but it did pass a basic test put together by ChatGPT.
 
+### Results
 ```
 Expression 'sin(0.5)' is correct. Expected: 0.008726535498373935, Actual: 0.008726535498373935
 Expression 'cos(0.5)' is correct. Expected: 0.9999619230641713, Actual: 0.9999619230641713
@@ -67,7 +68,7 @@ Expression 'e ^ 0.5' is correct. Expected: 1.6487212707, Actual: 1.6487212707001
 Total correct expressions: 36/36
 ```
 
-## Acknowledgments
+## Acknowledgments 🙏
 
 - Thanks to the contributors of the Stack Overflow community for their valuable insights and solutions.
-- Also thanks to ChatGPT for the error handling and documentation :D
+- Also thanks to ChatGPT for the error handling and documentation 😄
