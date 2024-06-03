@@ -30,7 +30,7 @@ class Program
 
 - The algorithm wasn't submitted to intense testing, but it did pass a basic test including edge cases and harder expressions.
 
-<details lang="diff">
+<details>
     <summary>
         Results
     </summary>
