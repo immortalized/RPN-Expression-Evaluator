@@ -51,7 +51,7 @@ static class RPN
                     "acos" => Math.Acos(n * Math.PI / 180.0),
                     "atan" => Math.Atan(n * Math.PI / 180.0),
                     "exp" => Math.Exp(n),
-                    "log" => Math.Log(n),
+                    "log" => Math.Log10(n),
                     "lg" => Math.Log2(n),
                     "ln" => Math.Log(Math.E, n),
                     _ => throw new InvalidOperationException("Unsupported function.")
