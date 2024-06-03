@@ -34,6 +34,7 @@ class Program
     <summary>
         Results
     </summary>
+
     
     ```diff
     + Expression 'sin(0.5)' is correct. Expected: 0.008726535498373935, Actual: 0.008726535498373935
@@ -74,6 +75,7 @@ class Program
     + Expression 'e ^ 0.5' is correct. Expected: 1.6487212707, Actual: 1.6487212707001282
     ! Total correct expressions: 36/36
     ```
+    
 </details>
 
 ## Acknowledgments 🙏
