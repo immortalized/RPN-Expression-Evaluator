@@ -14,7 +14,7 @@ static class RPN
         catch (Exception ex)
         {
             // If any exception occurs, wrap it in ArgumentException with a custom message
-            throw new ArgumentException("Invalid input expression.", ex);
+            throw new ArgumentException($"Invalid input expression. {ex.Message}");
         }
     }
 
@@ -133,20 +133,24 @@ static class RPN
             // Check if token is an operator
             else if (IsOperator(token))
             {
-                // If the token is a minus sign and the previous token was an operator, add a zero before it
-                if (token == "-" && previousWasOperator)
-                {
-                    output.Append("0 ");
-                }
-
                 // Pop operators with higher or equal precedence from the stack and append them to the output
                 while (operators.Count > 0 && GetOperatorPrecedence(operators.Peek()) >= GetOperatorPrecedence(token) && operators.Peek() != "(")
                 {
                     output.Append(operators.Pop()).Append(' ');
                 }
+                
+                // If the token is a minus sign and the previous token was an operator, add a zero before it
+                if (token == "-" && previousWasOperator)
+                {
+                    output.Append("0 ");
+                }
+                
+                //Only set to true when token is binary operator
+                if(token != "!")
+                    previousWasOperator = true;
+
                 // Push the current operator onto the stack
                 operators.Push(token);
-                previousWasOperator = true;
             }
             else if (token == "(")
             {
