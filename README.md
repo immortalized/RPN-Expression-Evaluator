@@ -1,5 +1,8 @@
 # Reverse Polish Notation (RPN) Expression Evaluator 🧮
 
+[![ ](https://img.shields.io/badge/-csharp-green?labelColor=gray&style=plastic&logo=csharp&logoColor=green&logoWidth=15&link=https://learn.microsoft.com/en-us/dotnet/csharp/)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![ ](https://img.shields.io/badge/-.NET-BD70FF?labelColor=gray&style=plastic&logo=.net&logoColor=BD70FF&logoWidth=20&link=https://dotnet.microsoft.com/en-us/)](https://dotnet.microsoft.com/en-us/)
+
 This is a simple C# implementation of an expression evaluator using the Reverse Polish Notation (RPN).
 
 ## Usage 🚀
