@@ -31,7 +31,7 @@ class Program
 - The algorithm wasn't submitted to intense testing, but it did pass a basic test put together by ChatGPT.
 
 ### Results
-```
+```diff
 + Expression 'sin(0.5)' is correct. Expected: 0.008726535498373935, Actual: 0.008726535498373935
 + Expression 'cos(0.5)' is correct. Expected: 0.9999619230641713, Actual: 0.9999619230641713
 + Expression 'tan(1)' is correct. Expected: 0.017455064928217585, Actual: 0.017455064928217585
