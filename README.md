@@ -1,14 +1,3 @@
-<style>
-    // resets
-    s { text-decoration:none; } //strike-through
-    em { font-style: normal; font-weight: bold; } //italic emphasis
-    
-    
-    // colors
-    s { color: green }
-    em { color: blue }
-</style>
-
 # Reverse Polish Notation (RPN) Expression Evaluator 🧮
 
 This is a simple C# implementation of an expression evaluator using the Reverse Polish Notation (RPN).
@@ -17,8 +6,6 @@ This is a simple C# implementation of an expression evaluator using the Reverse 
 
 1. Include the `RPN.cs` file in your project.
 2. Call the `RPN.Evaluate()` method with an infix expression as input to obtain the result.
-~~This is green~~
-_this is blue_
 
 Example:
 
