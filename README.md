@@ -23,6 +23,17 @@ class Program
 }
 ```
 
+##Test
+
+- The algorithm wasn't submitted to intense testing, but it did pass a basic test put together by ChatGPT.
+
+<details>
+    <summary>
+        Results
+    </summary>
+    details
+</details>
+
 ## Acknowledgments
 
 - Thanks to the contributors of the Stack Overflow community for their valuable insights and solutions.
