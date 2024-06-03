@@ -35,6 +35,10 @@ class Program
 <details>
   <summary>
     Results
+      
+```diff
+! Total correct expressions: 109/109
+```
   </summary>
     
 ```diff
@@ -149,10 +153,6 @@ class Program
 + Expression 'asin(5)' is correct. Expected: 0.08737760592421796, Actual: 0.08737760592421796
 ```
 </details>
-
-```diff
-! Total correct expressions: 109/109
-```
 
 ## Acknowledgments 🙏
 
