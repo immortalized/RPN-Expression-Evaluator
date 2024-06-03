@@ -147,7 +147,7 @@ class Program
 + Expression 'acos(0.8) + atan(10) / 7!' is correct. Expected: 1.5568675232711693, Actual: 1.5568675232711693
 + Expression 'log(65) + lg(50) / sqrt(45)' is correct. Expected: 5.015723676266919, Actual: 5.015723676266919
 + Expression 'asin(5)' is correct. Expected: 0.08737760592421796, Actual: 0.08737760592421796
-! Total correct expressions: 109/109
+@@ Total correct expressions: 109/109 @@
 ```
 </details>
 
