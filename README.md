@@ -30,8 +30,6 @@ class Program
 
 The algorithm passed the tests including edge cases and hard expressions.
 
-### Results
-
 <details>
   <summary>
     Results (301 out of 301 correct)
