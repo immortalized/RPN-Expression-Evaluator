@@ -222,7 +222,7 @@ static class RPN
         for (int i = 0; i < tokens.Length; i++)
         {
             tokens[i] = (tokens[i] switch{
-                "Pi" or "pi" or "pI" or "PI" => Math.PI.ToString(),
+                "pi" => Math.PI.ToString(),
                 "e" => Math.E.ToString(),
                 _ => tokens[i]
             });
