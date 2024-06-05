@@ -44,9 +44,9 @@ static class RPN
                 operands.Push(token switch
                 {
                     "sqrt" => Math.Sqrt(n),
-                    "sin" => Math.Sin(n * Math.PI / 180.0),
-                    "cos" => Math.Cos(n * Math.PI / 180.0),
-                    "tan" => Math.Tan(n * Math.PI / 180.0),
+                    "sin" => Math.Sin(n),
+                    "cos" => Math.Cos(n),
+                    "tan" => Math.Tan(n),
                     "sinh" => Math.Sinh(n),
                     "cosh" => Math.Cosh(n),
                     "tanh" => Math.Tanh(n),
