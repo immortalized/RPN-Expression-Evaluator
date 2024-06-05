@@ -96,245 +96,245 @@ The algorithm passed the tests including edge cases and hard expressions.
 + Expression 'sqrt(16) + 3!' is correct. Expected: 10, Actual: 10
 + Expression '2^5 * cos(pi/4)' is correct. Expected: 31.996993593649616, Actual: 31.996993593649616
 + Expression '4! / sqrt(49)' is correct. Expected: 3.4285714285714284, Actual: 3.4285714285714284
-+ Expression 'asin(0.5) + acos(0.8)' is correct. Expected: 1.5655599960836912, Actual: 1.5655599960836912
-+ Expression 'atan(1) + atan(2)' is correct. Expected: 0.052343938508789226, Actual: 0.052343938508789226
++ Expression 'sinh(0.5) + cosh(0.8)' is correct. Expected: 1.8585302517985922, Actual: 1.8585302517985922
++ Expression 'tanh(1) + tanh(2)' is correct. Expected: 1.7256217360315818, Actual: 1.7256217360315818
 + Expression 'log(10) + lg(8)' is correct. Expected: 4, Actual: 4
-+ Expression 'asin(0.7) + acos(0.6)' is correct. Expected: 1.5725417685920733, Actual: 1.5725417685920733
-+ Expression 'atan(0.5) + atan(3)' is correct. Expected: 0.061038531668438964, Actual: 0.061038531668438964
++ Expression 'sinh(0.7) + cosh(0.6)' is correct. Expected: 1.944048920081801, Actual: 1.944048920081801
++ Expression 'tanh(0.5) + tanh(3)' is correct. Expected: 1.4571719109467403, Actual: 1.4571719109467403
 + Expression 'log(8) + lg(16)' is correct. Expected: 4.903089986991944, Actual: 4.903089986991944
-+ Expression 'asin(0.3) + acos(0.4)' is correct. Expected: 1.5690509647563957, Actual: 1.5690509647563957
-+ Expression 'atan(2) + atan(1)' is correct. Expected: 0.052343938508789226, Actual: 0.052343938508789226
++ Expression 'sinh(0.3) + cosh(0.4)' is correct. Expected: 1.3855926652855972, Actual: 1.3855926652855972
++ Expression 'tanh(2) + tanh(1)' is correct. Expected: 1.7256217360315818, Actual: 1.7256217360315818
 + Expression 'log(2) + lg (4)' is correct. Expected: 2.3010299956639813, Actual: 2.3010299956639813
-+ Expression 'asin(0.6) + acos(0.7)' is correct. Expected: 1.5690508849977198, Actual: 1.5690508849977198
-+ Expression 'atan(3) + atan(0.5)' is correct. Expected: 0.061038531668438964, Actual: 0.061038531668438964
++ Expression 'sinh(0.6) + cosh(0.7)' is correct. Expected: 1.8918225877791843, Actual: 1.8918225877791843
++ Expression 'tanh(3) + tanh(0.5)' is correct. Expected: 1.4571719109467403, Actual: 1.4571719109467403
 + Expression 'log(16) + lg(32)' is correct. Expected: 6.204119982655925, Actual: 6.204119982655925
-+ Expression 'asin(0.4) + acos(0.3)' is correct. Expected: 1.5725416888333974, Actual: 1.5725416888333974
-+ Expression 'atan(1) + atan(4)' is correct. Expected: 0.08715160095107907, Actual: 0.08715160095107907
++ Expression 'sinh(0.4) + cosh(0.3)' is correct. Expected: 1.4560908399316759, Actual: 1.4560908399316759
++ Expression 'tanh(1) + tanh(4)' is correct. Expected: 1.7609234556948319, Actual: 1.7609234556948319
 + Expression 'log(4) + lg(2)' is correct. Expected: 1.6020599913279625, Actual: 1.6020599913279625
-+ Expression 'asin(0.8) + acos(0.5)' is correct. Expected: 1.5760326575061019, Actual: 1.5760326575061019
-+ Expression 'atan(0.25) + atan(5)' is correct. Expected: 0.0914092407282499, Actual: 0.0914092407282499
++ Expression 'sinh(0.8) + cosh(0.5)' is correct. Expected: 2.015731947394004, Actual: 2.015731947394004
++ Expression 'tanh(0.25) + tanh(5)' is correct. Expected: 1.2448278666663042, Actual: 1.2448278666663042
 + Expression 'log(32) + lg(64)' is correct. Expected: 7.505149978319906, Actual: 7.505149978319906
 + Expression 'sqrt(10) * exp(2) - 3^2' is correct. Expected: 14.366247031379313, Actual: 14.366247031379313
-+ Expression 'asin(0.2) + atan(1) * 2' is correct. Expected: 0.03839370689572842, Actual: 0.03839370689572842
++ Expression 'sinh(0.2) + tanh(1) * 2' is correct. Expected: 1.7245243144526237, Actual: 1.7245243144526237
 + Expression 'log(20) + lg(5) * sqrt(4)' is correct. Expected: 5.944886185438706, Actual: 5.944886185438706
 + Expression 'sqrt(15) * exp(3) / 2^2' is correct. Expected: 19.447737500785, Actual: 19.447737500785
-+ Expression 'acos(0.4) + atan(2) / 3!' is correct. Expected: 1.569630356051742, Actual: 1.569630356051742
++ Expression 'cosh(0.4) + tanh(2) / 3!' is correct. Expected: 1.2417436351844242, Actual: 1.2417436351844242
 + Expression 'log(30) * lg(6) + 2^3' is correct. Expected: 11.81830305246851, Actual: 11.81830305246851
-+ Expression 'asin(0.5) + acos(0.7) - sqrt(49)' is correct. Expected: -5.432694524894675, Actual: -5.432694524894675
++ Expression 'sinh(0.5) + cosh(0.7) - sqrt(49)' is correct. Expected: -5.22373568887531, Actual: -5.22373568887531
 + Expression 'sqrt(20) + exp(1) * log(5)' is correct. Expected: 6.37213341642412, Actual: 6.37213341642412
 + Expression 'cos(pi/5) * sqrt(25) + 3^3' is correct. Expected: 31.99969935767021, Actual: 31.99969935767021
-+ Expression 'atan(3) / sin(pi/4) + lg(7)' is correct. Expected: 6.623708144904803, Actual: 6.623708144904803
++ Expression 'tanh(3) / sin(pi/4) + lg(7)' is correct. Expected: 75.40011861586339, Actual: 75.40011861586339
 + Expression 'sqrt(18) + exp(2) / log(10)' is correct. Expected: 11.631696786049936, Actual: 11.631696786049936
-+ Expression 'acos(0.6) * atan(0.5) - sqrt(16)' is correct. Expected: -3.9863839486393857, Actual: -3.9863839486393857
++ Expression 'cosh(0.6) * tanh(0.5) - sqrt(16)' is correct. Expected: -3.452176183315266, Actual: -3.452176183315266
 + Expression 'log(40) + lg(8) * sqrt(9)' is correct. Expected: 10.602059991327963, Actual: 10.602059991327963
 + Expression 'sqrt(12) * exp(3) - 5!' is correct. Expected: -50.4216591034766, Actual: -50.4216591034766
-+ Expression 'asin(0.9) + acos(0.1) + 2^6' is correct. Expected: 65.58475960596058, Actual: 65.58475960596058
-+ Expression 'atan(4) * log(15) + lg(3)' is correct. Expected: 1.6669361559170104, Actual: 1.6669361559170104
++ Expression 'sinh(0.9) + cosh(0.1) + 2^6' is correct. Expected: 66.03152089376398, Actual: 66.03152089376398
++ Expression 'tanh(4) * log(15) + lg(3)' is correct. Expected: 2.7602649550625076, Actual: 2.7602649550625076
 + Expression 'sqrt(22) + exp(1) / log(8)' is correct. Expected: 7.700394685083394, Actual: 7.700394685083394
 + Expression 'cos(pi/6) * sqrt(30) + 4!' is correct. Expected: 29.476996867982212, Actual: 29.476996867982212
-+ Expression 'asin(0.4) + acos(0.2) * sqrt(5)' is correct. Expected: 3.511583373687525, Actual: 3.511583373687525
++ Expression 'sinh(0.4) + cosh(0.2) * sqrt(5)' is correct. Expected: 2.6916909329547347, Actual: 2.6916909329547347
 + Expression 'log(50) + lg(10) - 3!' is correct. Expected: -0.9791019007766195, Actual: -0.9791019007766195
 + Expression 'sqrt(25) * exp(2) + 2^4' is correct. Expected: 52.945280494653254, Actual: 52.945280494653254
-+ Expression 'atan(1) / sin(pi/3) + lg(9)' is correct. Expected: 4.12481087741932, Actual: 4.12481087741932
++ Expression 'tanh(1) / sin(pi/3) + lg(9)' is correct. Expected: 44.84168056205057, Actual: 44.84168056205057
 + Expression 'sqrt(14) + exp(1) * log(4)' is correct. Expected: 5.378226120842951, Actual: 5.378226120842951
-+ Expression 'acos(0.8) + atan(0.3) / 2!' is correct. Expected: 1.5594512090116932, Actual: 1.5594512090116932
++ Expression 'cosh(0.8) + tanh(0.3) / 2!' is correct. Expected: 1.4830912525306401, Actual: 1.4830912525306401
 + Expression 'log(60) * lg(12) + 3^2' is correct. Expected: 15.374605553235797, Actual: 15.374605553235797
 + Expression 'sqrt(21) + exp(3) - 4!' is correct. Expected: 0.6681126181435069, Actual: 0.6681126181435069
-+ Expression 'asin(0.2) + acos(0.5) + 2^5' is correct. Expected: 33.56556023536191, Actual: 33.56556023536191
-+ Expression 'atan(2) * log(18) + lg(2)' is correct. Expected: 1.0437994927728738, Actual: 1.0437994927728738
++ Expression 'sinh(0.2) + cosh(0.5) + 2^5' is correct. Expected: 33.328961967747475, Actual: 33.328961967747475
++ Expression 'tanh(2) * log(18) + lg(2)' is correct. Expected: 2.2101173154304483, Actual: 2.2101173154304483
 + Expression 'sqrt(19) + exp(2) / log(5)' is correct. Expected: 14.930248290569988, Actual: 14.930248290569988
 + Expression 'cos(pi/4) * sqrt(28) + 5!' is correct. Expected: 125.29100548440773, Actual: 125.29100548440773
-+ Expression 'asin(0.3) + acos(0.1) * sqrt(7)' is correct. Expected: 4.156554743212818, Actual: 4.156554743212818
++ Expression 'sinh(0.3) + cosh(0.1) * sqrt(7)' is correct. Expected: 2.9635113887061633, Actual: 2.9635113887061633
 + Expression 'log(70) + lg(15) - 4!' is correct. Expected: -18.248011364377223, Actual: -18.248011364377223
 + Expression 'sqrt(24) * exp(2) + 3^4' is correct. Expected: 117.19883424636022, Actual: 117.19883424636022
-+ Expression 'atan(0.5) / sin(pi/6) + lg(5)' is correct. Expected: 3.2768468050966875, Actual: 3.2768468050966875
++ Expression 'tanh(0.5) / sin(pi/6) + lg(5)' is correct. Expected: 52.89066988984336, Actual: 52.89066988984336
 + Expression 'sqrt(17) + exp(1) * log(6)' is correct. Expected: 6.238340029328203, Actual: 6.238340029328203
-+ Expression 'acos(0.7) + atan(0.2) / 3!' is correct. Expected: 1.5591604921339641, Actual: 1.5591604921339641
++ Expression 'cosh(0.7) + tanh(0.2) / 3!' is correct. Expected: 1.2880648923350937, Actual: 1.2880648923350937
 + Expression 'log(80) * lg(18) + 2^5' is correct. Expected: 39.93574251675223, Actual: 39.93574251675223
 + Expression 'sqrt(23) + exp(3) - 5!' is correct. Expected: -95.11863155349961, Actual: -95.11863155349961
-+ Expression 'asin(0.1) + acos(0.6) + 3^3' is correct. Expected: 28.562069490014807, Actual: 28.562069490014807
-+ Expression 'atan(1) * log(20) + lg(4)' is correct. Expected: 2.0227049518375066, Actual: 2.0227049518375066
++ Expression 'sinh(0.1) + cosh(0.6) + 3^3' is correct. Expected: 28.285631968262113, Actual: 28.285631968262113
++ Expression 'tanh(1) * log(20) + lg(4)' is correct. Expected: 2.9908568414208423, Actual: 2.9908568414208423
 + Expression 'sqrt(27) + exp(2) / log(7)' is correct. Expected: 13.93958306515138, Actual: 13.93958306515138
 + Expression 'cos(pi/3) * sqrt(35) + 4!' is correct. Expected: 29.915091676254413, Actual: 29.915091676254413
-+ Expression 'asin(0.4) + acos(0.3) * sqrt(9)' is correct. Expected: 4.703662319061442, Actual: 4.703662319061442
++ Expression 'sinh(0.4) + cosh(0.3) * sqrt(9)' is correct. Expected: 3.546767868189397, Actual: 3.546767868189397
 + Expression 'log(90) + lg(20) - 3!' is correct. Expected: 0.27617060432668783, Actual: 0.27617060432668783
 + Expression 'sqrt(26) * exp(2) + 2^6' is correct. Expected: 101.67694123547916, Actual: 101.67694123547916
-+ Expression 'atan(0.2) / sin(pi/4) + lg(8)' is correct. Expected: 3.254654849693247, Actual: 3.254654849693247
++ Expression 'tanh(0.2) / sin(pi/4) + lg(8)' is correct. Expected: 17.39922770781169, Actual: 17.39922770781169
 + Expression 'sqrt(16) + exp(1) * log(8)' is correct. Expected: 6.454853101103516, Actual: 6.454853101103516
-+ Expression 'acos(0.2) + atan(0.1) / 2!' is correct. Expected: 1.5681783249420023, Actual: 1.5681783249420023
++ Expression 'cosh(0.2) + tanh(0.1) / 2!' is correct. Expected: 1.0699007529315538, Actual: 1.0699007529315538
 + Expression 'log(100) * lg(25) + 3^3' is correct. Expected: 36.28771237954945, Actual: 36.28771237954945
 + Expression 'sqrt(28) + exp(3) - 2!' is correct. Expected: 23.377039545316848, Actual: 23.377039545316848
-+ Expression 'asin(0.7) + acos(0.8) + 2^7' is correct. Expected: 129.56905084777327, Actual: 129.56905084777327
-+ Expression 'atan(0.8) * log(30) + lg(9)' is correct. Expected: 3.1905481647915255, Actual: 3.1905481647915255
++ Expression 'sinh(0.7) + cosh(0.8) + 2^7' is correct. Expected: 130.09601864814437, Actual: 130.09601864814437
++ Expression 'tanh(0.8) * log(30) + lg(9)' is correct. Expected: 4.1507878287203495, Actual: 4.1507878287203495
 + Expression 'sqrt(31) + exp(1) / log(2)' is correct. Expected: 14.597701138609914, Actual: 14.597701138609914
 + Expression 'cos(pi/4) * sqrt(45) + 5!' is correct. Expected: 126.70757369540867, Actual: 126.70757369540867
-+ Expression 'asin(0.2) + acos(0.1) * sqrt(11)' is correct. Expected: 5.2074440984366035, Actual: 5.2074440984366035
++ Expression 'sinh(0.2) + cosh(0.1) * sqrt(11)' is correct. Expected: 3.5345577407254765, Actual: 3.5345577407254765
 + Expression 'log(110) + lg(12) - 4!' is correct. Expected: -18.373644814120617, Actual: -18.373644814120617
 + Expression 'sqrt(34) * exp(2) + 3^5' is correct. Expected: 286.0852306611779, Actual: 286.0852306611779
-+ Expression 'atan(0.5) / sin(pi/2) + lg(7)' is correct. Expected: 3.1256966051941117, Actual: 3.1256966051941117
++ Expression 'tanh(0.5) / sin(pi/2) + lg(7)' is correct. Expected: 19.66547928907616, Actual: 19.66547928907616
 + Expression 'sqrt(35) + exp(2) * log(9)' is correct. Expected: 12.967031217331147, Actual: 12.967031217331147
 + Expression 'log(120) * lg(18) + 2^7' is correct. Expected: 136.67002986042397, Actual: 136.67002986042397
 + Expression 'sqrt(40) + exp(3) - 5!' is correct. Expected: -93.58990775647557, Actual: -93.58990775647557
-+ Expression 'asin(0.6) + acos(0.4) + 3^3' is correct. Expected: 28.574287119993702, Actual: 28.574287119993702
-+ Expression 'atan(0.6) * log(35) + lg(3)' is correct. Expected: 1.6011313524500168, Actual: 1.6011313524500168
++ Expression 'sinh(0.6) + cosh(0.4) + 3^3' is correct. Expected: 28.717725953986697, Actual: 28.717725953986697
++ Expression 'tanh(0.6) * log(35) + lg(3)' is correct. Expected: 2.414203575354975, Actual: 2.414203575354975
 + Expression 'sqrt(36) + exp(1) / log(10)' is correct. Expected: 8.718281828459045, Actual: 8.718281828459045
 + Expression 'cos(pi/6) * sqrt(50) + 4!' is correct. Expected: 31.070772552308426, Actual: 31.070772552308426
-+ Expression 'asin(0.5) + acos(0.2) * sqrt(13)' is correct. Expected: 5.659727682814949, Actual: 5.659727682814949
++ Expression 'sinh(0.5) + cosh(0.2) * sqrt(13)' is correct. Expected: 4.198998297274519, Actual: 4.198998297274519
 + Expression 'log(130) + lg(15) - 3!' is correct. Expected: 0.020833947915355644, Actual: 0.020833947915355644
 + Expression 'sqrt(42) * exp(2) + 2^8' is correct. Expected: 303.88655658315867, Actual: 303.88655658315867
-+ Expression 'atan(0.1) / sin(pi/3) + lg(10)' is correct. Expected: 3.4174262805586837, Actual: 3.4174262805586837
++ Expression 'tanh(0.1) / sin(pi/3) + lg(10)' is correct. Expected: 8.77541047358935, Actual: 8.77541047358935
 + Expression 'sqrt(44) + exp(1) * log(12)' is correct. Expected: 9.566768351455849, Actual: 9.566768351455849
-+ Expression 'acos(0.9) + atan(0.4) / 2!' is correct. Expected: 1.5585783192866092, Actual: 1.5585783192866092
++ Expression 'cosh(0.9) + tanh(0.4) / 2!' is correct. Expected: 1.6230608665763868, Actual: 1.6230608665763868
 + Expression 'log(140) * lg(20) + 3^2' is correct. Expected: 18.275411052623205, Actual: 18.275411052623205
 + Expression 'sqrt(49) + exp(3) - 4!' is correct. Expected: 3.085536923187668, Actual: 3.085536923187668
-+ Expression 'asin(0.9) + acos(0.5) + 2^9' is correct. Expected: 513.5777781790729, Actual: 513.5777781790729
-+ Expression 'atan(1) * log(40) + lg(2)' is correct. Expected: 1.027958383023547, Actual: 1.027958383023547
++ Expression 'sinh(0.9) + cosh(0.5) + 2^9' is correct. Expected: 514.1541426909146, Actual: 514.1541426909146
++ Expression 'tanh(1) * log(40) + lg(2)' is correct. Expected: 2.2201195268859193, Actual: 2.2201195268859193
 + Expression 'sqrt(52) + exp(2) / log(15)' is correct. Expected: 13.493825972292017, Actual: 13.493825972292017
 + Expression 'cos(pi/5) * sqrt(55) + 5!' is correct. Expected: 127.4157525624574, Actual: 127.4157525624574
-+ Expression 'asin(0.8) + acos(0.4) * sqrt(14)' is correct. Expected: 5.865222858459561, Actual: 5.865222858459561
++ Expression 'sinh(0.8) + cosh(0.4) * sqrt(14)' is correct. Expected: 4.933108407914203, Actual: 4.933108407914203
 + Expression 'log(150) + lg(25) - 4!' is correct. Expected: -17.180052551169595, Actual: -17.180052551169595
 + Expression 'sqrt(54) * exp(2) + 3^6' is correct. Expected: 783.2982513695404, Actual: 783.2982513695404
-+ Expression 'atan(0.4) / sin(pi/4) + lg(5)' is correct. Expected: 2.8312315886912303, Actual: 2.8312315886912303
++ Expression 'tanh(0.4) / sin(pi/4) + lg(5)' is correct. Expected: 30.040548734112686, Actual: 30.040548734112686
 + Expression 'sqrt(55) + exp(1) * log(18)' is correct. Expected: 10.828382927482243, Actual: 10.828382927482243
-+ Expression 'acos(0.6) + atan(0.3) / 3!' is correct. Expected: 1.5611968165279781, Actual: 1.5611968165279781
++ Expression 'cosh(0.6) + tanh(0.3) / 3!' is correct. Expected: 1.2340173203175326, Actual: 1.2340173203175326
 + Expression 'log(160) * lg(30) + 2^8' is correct. Expected: 266.81537561448715, Actual: 266.81537561448715
 + Expression 'sqrt(57) + exp(3) - 5!' is correct. Expected: -92.36462864154159, Actual: -92.36462864154159
-+ Expression 'asin(0.4) + acos(0.6) + 3^4' is correct. Expected: 82.56730553359608, Actual: 82.56730553359608
-+ Expression 'atan(0.3) * log(45) + lg(4)' is correct. Expected: 2.0086561213765832, Actual: 2.0086561213765832
++ Expression 'sinh(0.4) + cosh(0.6) + 3^4' is correct. Expected: 82.59621754404509, Actual: 82.59621754404509
++ Expression 'tanh(0.3) * log(45) + lg(4)' is correct. Expected: 2.481601656325557, Actual: 2.481601656325557
 + Expression 'sqrt(60) + exp(2) / log(20)' is correct. Expected: 13.42535619423769, Actual: 13.42535619423769
 + Expression 'cos(pi/3) * sqrt(65) + 4!' is correct. Expected: 32.06091118564879, Actual: 32.06091118564879
-+ Expression 'asin(0.5) + acos(0.3) * sqrt(15)' is correct. Expected: 6.072115784945631, Actual: 6.072115784945631
++ Expression 'sinh(0.5) + cosh(0.3) * sqrt(15)' is correct. Expected: 4.569673961864031, Actual: 4.569673961864031
 + Expression 'log(170) + lg(35) - 3!' is correct. Expected: 1.3597319383232405, Actual: 1.3597319383232405
 + Expression 'sqrt(62) * exp(2) + 2^9' is correct. Expected: 570.1814859044949, Actual: 570.1814859044949
-+ Expression 'atan(0.7) / sin(pi/6) + lg(11)' is correct. Expected: 4.796285237403401, Actual: 4.796285237403401
++ Expression 'tanh(0.7) / sin(pi/6) + lg(11)' is correct. Expected: 69.59443134779389, Actual: 69.59443134779389
 + Expression 'sqrt(64) + exp(1) * log(22)' is correct. Expected: 11.64908317939028, Actual: 11.64908317939028
 + Expression 'log(180) * lg(40) + 3^2' is correct. Expected: 21.002398106536287, Actual: 21.002398106536287
 + Expression 'sqrt(66) + exp(3) - 4!' is correct. Expected: 4.209575327823629, Actual: 4.209575327823629
-+ Expression 'asin(0.2) + acos(0.7) + 2^10' is correct. Expected: 1025.5620693836722, Actual: 1025.5620693836722
-+ Expression 'atan(0.9) * log(50) + lg(3)' is correct. Expected: 1.611647664520254, Actual: 1.611647664520254
++ Expression 'sinh(0.2) + cosh(0.7) + 2^10' is correct. Expected: 1025.4565050081721, Actual: 1025.4565050081721
++ Expression 'tanh(0.9) * log(50) + lg(3)' is correct. Expected: 2.8019310963590733, Actual: 2.8019310963590733
 + Expression 'sqrt(68) + exp(2) / log(25)' is correct. Expected: 13.531885924749979, Actual: 13.531885924749979
 + Expression 'cos(pi/4) * sqrt(75) + 5!' is correct. Expected: 128.65944040525892, Actual: 128.65944040525892
-+ Expression 'asin(0.3) + acos(0.8) * sqrt(17)' is correct. Expected: 6.4242238977890835, Actual: 6.4242238977890835
++ Expression 'sinh(0.3) + cosh(0.8) * sqrt(17)' is correct. Expected: 5.818905844454301, Actual: 5.818905844454301
 + Expression 'log(190) + lg(50) - 4!' is correct. Expected: -16.077390209272448, Actual: -16.077390209272448
 + Expression 'sqrt(70) * exp(2) + 3^7' is correct. Expected: 2248.821278717931, Actual: 2248.821278717931
-+ Expression 'atan(0.6) / sin(pi/4) + lg(7)' is correct. Expected: 3.571294649714122, Actual: 3.571294649714122
++ Expression 'tanh(0.6) / sin(pi/4) + lg(7)' is correct. Expected: 41.98702032690516, Actual: 41.98702032690516
 + Expression 'sqrt(72) + exp(1) * log(30)' is correct. Expected: 12.500513239373653, Actual: 12.500513239373653
-+ Expression 'acos(0.2) + atan(0.4) / 3!' is correct. Expected: 1.5684691951339307, Actual: 1.5684691951339307
++ Expression 'cosh(0.2) + tanh(0.4) / 3!' is correct. Expected: 1.0833915826616134, Actual: 1.0833915826616134
 + Expression 'log(200) * lg(60) + 2^9' is correct. Expected: 525.5919324416006, Actual: 525.5919324416006
 + Expression 'sqrt(74) + exp(3) - 5!' is correct. Expected: -91.31213780976971, Actual: -91.31213780976971
-+ Expression 'asin(0.6) + acos(0.2) + 3^4' is correct. Expected: 82.57777782812028, Actual: 82.57777782812028
-+ Expression 'atan(0.5) * log(55) + lg(6)' is correct. Expected: 2.600149644761868, Actual: 2.600149644761868
++ Expression 'sinh(0.6) + cosh(0.2) + 3^4' is correct. Expected: 82.65672033776731, Actual: 82.65672033776731
++ Expression 'tanh(0.5) * log(55) + lg(6)' is correct. Expected: 3.389213959391621, Actual: 3.389213959391621
 + Expression 'sqrt(76) + exp(2) / log(35)' is correct. Expected: 13.50324508674791, Actual: 13.50324508674791
 + Expression 'cos(pi/6) * sqrt(80) + 4!' is correct. Expected: 32.94389843291868, Actual: 32.94389843291868
-+ Expression 'asin(0.7) + acos(0.3) * sqrt(18)' is correct. Expected: 6.654327499757398, Actual: 6.654327499757398
++ Expression 'sinh(0.7) + cosh(0.3) * sqrt(18)' is correct. Expected: 5.1935794136954545, Actual: 5.1935794136954545
 + Expression 'log(210) + lg(70) - 3!' is correct. Expected: 2.451502311678885, Actual: 2.451502311678885
 + Expression 'sqrt(78) * exp(2) + 2^10' is correct. Expected: 1089.258376493637, Actual: 1089.258376493637
-+ Expression 'atan(0.2) / sin(pi/5) + lg(8)' is correct. Expected: 3.3183149733126798, Actual: 3.3183149733126798
++ Expression 'tanh(0.2) / sin(pi/5) + lg(8)' is correct. Expected: 20.998831709101452, Actual: 20.998831709101452
 + Expression 'sqrt(80) + exp(1) * log(40)' is correct. Expected: 13.299122472527214, Actual: 13.299122472527214
-+ Expression 'acos(0.5) + atan(0.3) / 2!' is correct. Expected: 1.5646875397228985, Actual: 1.5646875397228985
++ Expression 'cosh(0.5) + tanh(0.3) / 2!' is correct. Expected: 1.273282271432176, Actual: 1.273282271432176
 + Expression 'log(220) * lg(80) + 3^2' is correct. Expected: 23.808627755991278, Actual: 23.808627755991278
 + Expression 'sqrt(82) + exp(3) - 4!' is correct. Expected: 5.140922061325085, Actual: 5.140922061325085
-+ Expression 'asin(0.4) + acos(0.9) + 2^11' is correct. Expected: 2049.5620690912106, Actual: 2049.5620690912106
-+ Expression 'atan(0.9) * log(60) + lg(2)' is correct. Expected: 1.0279288376221818, Actual: 1.0279288376221818
++ Expression 'sinh(0.4) + cosh(0.9) + 2^11' is correct. Expected: 2049.8438387112515, Actual: 2049.8438387112515
++ Expression 'tanh(0.9) * log(60) + lg(2)' is correct. Expected: 2.273685953541536, Actual: 2.273685953541536
 + Expression 'sqrt(84) + exp(2) / log(45)' is correct. Expected: 13.634665162255866, Actual: 13.634665162255866
 + Expression 'cos(pi/5) * sqrt(90) + 5!' is correct. Expected: 129.4862625517912, Actual: 129.4862625517912
-+ Expression 'asin(0.8) + acos(0.4) * sqrt(19)' is correct. Expected: 6.830474434590991, Actual: 6.830474434590991
++ Expression 'sinh(0.8) + cosh(0.4) * sqrt(19)' is correct. Expected: 5.600391201685274, Actual: 5.600391201685274
 + Expression 'log(230) + lg(90) - 4!' is correct. Expected: -15.146419067652733, Actual: -15.146419067652733
 + Expression 'sqrt(88) * exp(2) + 3^8' is correct. Expected: 6630.315490353288, Actual: 6630.315490353288
-+ Expression 'atan(0.4) / sin(pi/3) + lg(9)' is correct. Expected: 3.5519119262202756, Actual: 3.5519119262202756
++ Expression 'tanh(0.4) / sin(pi/3) + lg(9)' is correct. Expected: 23.95939687013944, Actual: 23.95939687013944
 + Expression 'sqrt(90) + exp(1) * log(50)' is correct. Expected: 14.105112270388723, Actual: 14.105112270388723
-+ Expression 'acos(0.6) + atan(0.2) / 3!' is correct. Expected: 1.5609059339311409, Actual: 1.5609059339311409
++ Expression 'cosh(0.6) + tanh(0.2) / 3!' is correct. Expected: 1.2183611049464182, Actual: 1.2183611049464182
 + Expression 'log(240) * lg(100) + 2^10' is correct. Expected: 1039.813781191217, Actual: 1039.813781191217
 + Expression 'sqrt(92) + exp(3) - 5!' is correct. Expected: -90.3228000301869, Actual: -90.3228000301869
-+ Expression 'asin(0.5) + acos(0.3) + 3^5' is correct. Expected: 244.5742870721398, Actual: 244.5742870721398
-+ Expression 'atan(0.3) * log(70) + lg(3)' is correct. Expected: 1.59462332318226, Actual: 1.59462332318226
++ Expression 'sinh(0.5) + cosh(0.3) + 3^5' is correct. Expected: 244.5664338196226, Actual: 244.5664338196226
++ Expression 'tanh(0.3) * log(70) + lg(3)' is correct. Expected: 2.1224628309870193, Actual: 2.1224628309870193
 + Expression 'sqrt(95) + exp(2) / log(60)' is correct. Expected: 13.90226542598748, Actual: 13.90226542598748
 + Expression 'cos(pi/4) * sqrt(100) + 4!' is correct. Expected: 33.9990604980155, Actual: 33.9990604980155
-+ Expression 'asin(0.2) + acos(0.8) * sqrt(21)' is correct. Expected: 7.1377968279989235, Actual: 7.1377968279989235
++ Expression 'sinh(0.2) + cosh(0.8) * sqrt(21)' is correct. Expected: 6.330232881062244, Actual: 6.330232881062244
 + Expression 'log(250) + lg(120) - 3!' is correct. Expected: 3.304830604280557, Actual: 3.304830604280557
 + Expression 'sqrt(98) * exp(2) + 2^11' is correct. Expected: 2121.1479234377034, Actual: 2121.1479234377034
-+ Expression 'atan(0.1) / sin(pi/4) + lg(10)' is correct. Expected: 3.4492559075935327, Actual: 3.4492559075935327
++ Expression 'tanh(0.1) / sin(pi/4) + lg(10)' is correct. Expected: 10.59306081882865, Actual: 10.59306081882865
 + Expression 'sqrt(100) + exp(1) * log(70)' is correct. Expected: 15.015496473896155, Actual: 15.015496473896155
-+ Expression 'acos(0.8) + atan(0.6) / 2!' is correct. Expected: 1.56206903542971, Actual: 1.56206903542971
++ Expression 'cosh(0.8) + tanh(0.6) / 2!' is correct. Expected: 1.6059597298038624, Actual: 1.6059597298038624
 + Expression 'log(260) * lg(150) + 3^2' is correct. Expected: 26.45740447486086, Actual: 26.45740447486086
 + Expression 'sqrt(104) + exp(3) - 4!' is correct. Expected: 6.283575950373237, Actual: 6.283575950373237
-+ Expression 'asin(0.3) + acos(0.2) + 2^12' is correct. Expected: 4097.572541672883, Actual: 4097.572541672883
-+ Expression 'atan(0.5) * log(80) + lg(4)' is correct. Expected: 2.0166071715564544, Actual: 2.0166071715564544
++ Expression 'sinh(0.3) + cosh(0.2) + 2^12' is correct. Expected: 4097.324587049066, Actual: 4097.324587049066
++ Expression 'tanh(0.5) * log(80) + lg(4)' is correct. Expected: 2.879450534798706, Actual: 2.879450534798706
 + Expression 'sqrt(108) + exp(2) / log(80)' is correct. Expected: 14.274967330864055, Actual: 14.274967330864055
 + Expression 'cos(pi/6) * sqrt(110) + 5!' is correct. Expected: 130.48765054100545, Actual: 130.48765054100545
-+ Expression 'asin(0.7) + acos(0.1) * sqrt(22)' is correct. Expected: 7.371719131401095, Actual: 7.371719131401095
++ Expression 'sinh(0.7) + cosh(0.1) * sqrt(22)' is correct. Expected: 5.472471090376709, Actual: 5.472471090376709
 + Expression 'log(270) + lg(200) - 4!' is correct. Expected: -13.924780046066289, Actual: -13.924780046066289
 + Expression 'sqrt(110) * exp(2) + 3^9' is correct. Expected: 19760.49707416184, Actual: 19760.49707416184
-+ Expression 'atan(0.3) / sin(pi/5) + lg(11)' is correct. Expected: 3.936901654546921, Actual: 3.936901654546921
++ Expression 'tanh(0.3) / sin(pi/5) + lg(11)' is correct. Expected: 30.024488892668767, Actual: 30.024488892668767
 + Expression 'sqrt(115) + exp(1) * log(90)' is correct. Expected: 16.03598719657473, Actual: 16.03598719657473
-+ Expression 'acos(0.3) + atan(0.2) / 3!' is correct. Expected: 1.5661420891684479, Actual: 1.5661420891684479
++ Expression 'cosh(0.3) + tanh(0.2) / 3!' is correct. Expected: 1.0782344008330111, Actual: 1.0782344008330111
 + Expression 'log(280) * lg(250) + 2^10' is correct. Expected: 1043.4935329881505, Actual: 1043.4935329881505
 + Expression 'sqrt(118) + exp(3) - 5!' is correct. Expected: -89.05168258561211, Actual: -89.05168258561211
-+ Expression 'asin(0.4) + acos(0.5) + 3^4' is correct. Expected: 82.56905094348849, Actual: 82.56905094348849
-+ Expression 'atan(0.7) * log(90) + lg(5)' is correct. Expected: 2.3458024834045563, Actual: 2.3458024834045563
++ Expression 'sinh(0.4) + cosh(0.5) + 3^4' is correct. Expected: 82.5383782910092, Actual: 82.5383782910092
++ Expression 'tanh(0.7) * log(90) + lg(5)' is correct. Expected: 3.5030092962650743, Actual: 3.5030092962650743
 + Expression 'sqrt(120) + exp(2) / log(100)' is correct. Expected: 14.648979199568647, Actual: 14.648979199568647
 + Expression 'cos(pi/3) * sqrt(125) + 4!' is correct. Expected: 35.17847254108383, Actual: 35.17847254108383
-+ Expression 'asin(0.1) + acos(0.2) * sqrt(23)' is correct. Expected: 7.518279226797606, Actual: 7.518279226797606
++ Expression 'sinh(0.1) + cosh(0.2) * sqrt(23)' is correct. Expected: 4.99223505250114, Actual: 4.99223505250114
 + Expression 'log(290) + lg(300) - 3!' is correct. Expected: 4.691216688394837, Actual: 4.691216688394837
 + Expression 'sqrt(126) * exp(2) + 2^12' is correct. Expected: 4178.9419490015525, Actual: 4178.9419490015525
-+ Expression 'atan(0.6) / sin(pi/4) + lg(6)' is correct. Expected: 3.348902228377674, Actual: 3.348902228377674
++ Expression 'tanh(0.6) / sin(pi/4) + lg(6)' is correct. Expected: 41.76462790556871, Actual: 41.76462790556871
 + Expression 'sqrt(130) + exp(1) * log(110)' is correct. Expected: 16.9508348918062, Actual: 16.9508348918062
-+ Expression 'acos(0.5) + atan(0.7) / 2!' is correct. Expected: 1.5681779182473248, Actual: 1.5681779182473248
++ Expression 'cosh(0.5) + tanh(0.7) / 2!' is correct. Expected: 1.4298098537649624, Actual: 1.4298098537649624
 + Expression 'log(300) * lg(350) + 3^3' is correct. Expected: 47.93467467324285, Actual: 47.93467467324285
 + Expression 'sqrt(132) + exp(3) - 4!' is correct. Expected: 7.574662216263725, Actual: 7.574662216263725
-+ Expression 'asin(0.5) + acos(0.9) + 2^13' is correct. Expected: 8193.563814474517, Actual: 8193.563814474517
-+ Expression 'atan(0.8) * log(100) + lg(2)' is correct. Expected: 1.0279234535192268, Actual: 1.0279234535192268
++ Expression 'sinh(0.5) + cosh(0.9) + 2^13' is correct. Expected: 8193.954181690942, Actual: 8193.954181690942
++ Expression 'tanh(0.8) * log(100) + lg(2)' is correct. Expected: 2.328073540535698, Actual: 2.328073540535698
 + Expression 'sqrt(134) + exp(2) / log(120)' is correct. Expected: 15.129666619644741, Actual: 15.129666619644741
 + Expression 'cos(pi/4) * sqrt(140) + 5!' is correct. Expected: 131.8310479324599, Actual: 131.8310479324599
-+ Expression 'asin(0.3) + acos(0.1) * sqrt(24)' is correct. Expected: 7.691984656110006, Actual: 7.691984656110006
++ Expression 'sinh(0.3) + cosh(0.1) * sqrt(24)' is correct. Expected: 5.228015095661206, Actual: 5.228015095661206
 + Expression 'log(310) + lg(400) - 4!' is correct. Expected: -12.864782116391002, Actual: -12.864782116391002
 + Expression 'sqrt(136) * exp(2) + 3^10' is correct. Expected: 59135.170461322356, Actual: 59135.170461322356
-+ Expression 'atan(0.9) / sin(pi/6) + lg(7)' is correct. Expected: 4.526110879568071, Actual: 4.526110879568071
++ Expression 'tanh(0.9) / sin(pi/6) + lg(7)' is correct. Expected: 81.19068580970725, Actual: 81.19068580970725
 + Expression 'sqrt(140) + exp(1) * log(130)' is correct. Expected: 17.578453367166706, Actual: 17.578453367166706
-+ Expression 'acos(0.7) + atan(0.6) / 3!' is correct. Expected: 1.560323983536807, Actual: 1.560323983536807
++ Expression 'cosh(0.7) + tanh(0.6) / 3!' is correct. Expected: 1.3446772667972822, Actual: 1.3446772667972822
 + Expression 'log(320) * lg(450) + 2^11' is correct. Expected: 2070.079843760094, Actual: 2070.079843760094
 + Expression 'sqrt(142) + exp(3) - 5!' is correct. Expected: -87.99808778899936, Actual: -87.99808778899936
-+ Expression 'asin(0.6) + acos(0.4) + 3^5' is correct. Expected: 244.5742871199937, Actual: 244.5742871199937
-+ Expression 'atan(0.2) * log(110) + lg(3)' is correct. Expected: 1.5920882765158721, Actual: 1.5920882765158721
++ Expression 'sinh(0.6) + cosh(0.4) + 3^5' is correct. Expected: 244.7177259539867, Actual: 244.7177259539867
++ Expression 'tanh(0.2) * log(110) + lg(3)' is correct. Expected: 1.9878830356590373, Actual: 1.9878830356590373
 + Expression 'sqrt(145) + exp(2) / log(140)' is correct. Expected: 15.484565350382583, Actual: 15.484565350382583
 + Expression 'cos(pi/5) * sqrt(150) + 4!' is correct. Expected: 36.24671229361282, Actual: 36.24671229361282
-+ Expression 'asin(0.9) + acos(0.2) * sqrt(25)' is correct. Expected: 7.852236915314279, Actual: 7.852236915314279
++ Expression 'sinh(0.9) + cosh(0.2) * sqrt(25)' is correct. Expected: 6.126850503803555, Actual: 6.126850503803555
 + Expression 'log(330) + lg(500) - 3!' is correct. Expected: 5.484298224539975, Actual: 5.484298224539975
 + Expression 'sqrt(148) * exp(2) + 2^12' is correct. Expected: 4185.891747145693, Actual: 4185.891747145693
-+ Expression 'atan(0.4) / sin(pi/3) + lg(8)' is correct. Expected: 3.3819869247779635, Actual: 3.3819869247779635
++ Expression 'tanh(0.4) / sin(pi/3) + lg(8)' is correct. Expected: 23.789471868697127, Actual: 23.789471868697127
 + Expression 'sqrt(150) + exp(1) * log(150)' is correct. Expected: 18.162678040475512, Actual: 18.162678040475512
-+ Expression 'acos(0.9) + atan(0.8) / 2!' is correct. Expected: 1.562068580870923, Actual: 1.562068580870923
++ Expression 'cosh(0.9) + tanh(0.8) / 2!' is correct. Expected: 1.7651047705826988, Actual: 1.7651047705826988
 + Expression 'log(340) * lg(600) + 3^4' is correct. Expected: 104.36255994419584, Actual: 104.36255994419584
 + Expression 'sqrt(154) + exp(3) - 4!' is correct. Expected: 8.495210569178525, Actual: 8.495210569178525
-+ Expression 'asin(0.1) + acos(0.7) + 2^14' is correct. Expected: 16385.560324048216, Actual: 16385.560324048216
-+ Expression 'atan(0.5) * log(120) + lg(4)' is correct. Expected: 2.018143818677042, Actual: 2.018143818677042
++ Expression 'sinh(0.1) + cosh(0.7) + 2^14' is correct. Expected: 16385.355335755652, Actual: 16385.355335755652
++ Expression 'tanh(0.5) * log(120) + lg(4)' is correct. Expected: 2.960825326851853, Actual: 2.960825326851853
 + Expression 'sqrt(156) + exp(2) / log(160)' is correct. Expected: 15.842379785825818, Actual: 15.842379785825818
 + Expression 'cos(pi/6) * sqrt(165) + 5!' is correct. Expected: 132.84469621304368, Actual: 132.84469621304368
-+ Expression 'asin(0.2) + acos(0.3) * sqrt(26)' is correct. Expected: 7.986313262065665, Actual: 7.986313262065665
++ Expression 'sinh(0.2) + cosh(0.3) * sqrt(26)' is correct. Expected: 5.53153748439424, Actual: 5.53153748439424
 + Expression 'log(350) + lg(700) - 4!' is correct. Expected: -12.004720843817395, Actual: -12.004720843817395
 + Expression 'sqrt(160) * exp(2) + 3^11' is correct. Expected: 177240.46498812552, Actual: 177240.46498812552
-+ Expression 'atan(0.8) / sin(pi/4) + lg(9)' is correct. Expected: 4.188482349832393, Actual: 4.188482349832393
++ Expression 'tanh(0.8) / sin(pi/4) + lg(9)' is correct. Expected: 51.613756026270465, Actual: 51.613756026270465
 + Expression 'sqrt(162) + exp(1) * log(170)' is correct. Expected: 18.790910833646496, Actual: 18.790910833646496
-+ Expression 'acos(0.2) + atan(0.5) / 3!' is correct. Expected: 1.568760065326442, Actual: 1.568760065326442
++ Expression 'cosh(0.2) + tanh(0.5) / 3!' is correct. Expected: 1.0970862818290774, Actual: 1.0970862818290774
 + Expression 'log(360) * lg(800) + 2^11' is correct. Expected: 2072.652613694961, Actual: 2072.652613694961
 + Expression 'sqrt(164) + exp(3) - 5!' is correct. Expected: -87.10821460194663, Actual: -87.10821460194663
-+ Expression 'asin(0.3) + acos(0.8) + 3^6' is correct. Expected: 730.5620692507388, Actual: 730.5620692507388
-+ Expression 'atan(0.1) * log(130) + lg(5)' is correct. Expected: 2.3256176183108948, Actual: 2.3256176183108948
++ Expression 'sinh(0.3) + cosh(0.8) + 3^6' is correct. Expected: 730.641955239752, Actual: 730.641955239752
++ Expression 'tanh(0.1) * log(130) + lg(5)' is correct. Expected: 2.532620589562541, Actual: 2.532620589562541
 + Expression 'sqrt(170) + exp(2) / log(180)' is correct. Expected: 16.314752161871894, Actual: 16.314752161871894
 + Expression 'cos(pi/4) * sqrt(175) + 4!' is correct. Expected: 37.22751371101934, Actual: 37.22751371101934
-+ Expression 'asin(0.4) + acos(0.6) * sqrt(28)' is correct. Expected: 8.263440757078525, Actual: 8.263440757078525
++ Expression 'sinh(0.4) + cosh(0.6) * sqrt(28)' is correct. Expected: 6.683644636574717, Actual: 6.683644636574717
 + Expression 'log(370) + lg(900) - 3!' is correct. Expected: 6.381982915284032, Actual: 6.381982915284032
 + Expression 'sqrt(178) * exp(2) + 2^13' is correct. Expected: 8290.582304222917, Actual: 8290.582304222917
-+ Expression 'atan(0.3) / sin(pi/4) + lg(10)' is correct. Expected: 3.7039084301578518, Actual: 3.7039084301578518
++ Expression 'tanh(0.3) / sin(pi/4) + lg(10)' is correct. Expected: 24.574213517746877, Actual: 24.574213517746877
 + Expression 'sqrt(180) + exp(1) * log(190)' is correct. Expected: 19.61070237000443, Actual: 19.61070237000443
-+ Expression 'acos(0.4) + atan(0.6) / 2!' is correct. Expected: 1.5690507494473271, Actual: 1.5690507494473271
++ Expression 'cosh(0.4) + tanh(0.6) / 2!' is correct. Expected: 1.3495971553374724, Actual: 1.3495971553374724
 + Expression 'log(380) * lg(1000) + 3^2' is correct. Expected: 34.70956682499285, Actual: 34.70956682499285
 + Expression 'sqrt(184) + exp(3) - 4!' is correct. Expected: 9.650196889438206, Actual: 9.650196889438206
-+ Expression 'asin(0.6) + acos(0.5) + 2^14' is correct. Expected: 16385.57254173669, Actual: 16385.57254173669
-+ Expression 'atan(0.4) * log(140) + lg(6)' is correct. Expected: 2.5999450574705487, Actual: 2.5999450574705487
++ Expression 'sinh(0.6) + cosh(0.5) + 2^14' is correct. Expected: 16385.764279547355, Actual: 16385.764279547355
++ Expression 'tanh(0.4) * log(140) + lg(6)' is correct. Expected: 3.400381620743947, Actual: 3.400381620743947
 + Expression 'sqrt(190) + exp(2) / log(200)' is correct. Expected: 16.99524378772837, Actual: 16.99524378772837
 + Expression 'cos(pi/3) * sqrt(195) + 5!' is correct. Expected: 133.96190772884398, Actual: 133.96190772884398
-+ Expression 'asin(0.7) + acos(0.7) * sqrt(30)' is correct. Expected: 8.54890482411184, Actual: 8.54890482411184
++ Expression 'sinh(0.7) + cosh(0.7) * sqrt(30)' is correct. Expected: 7.633427480493498, Actual: 7.633427480493498
 + Expression 'log(390) + lg(1100) - 4!' is correct. Expected: -11.305647584561479, Actual: -11.305647584561479
 + Expression 'sqrt(194) * exp(2) + 3^12' is correct. Expected: 531543.9176423477, Actual: 531543.9176423477
 @@ Total correct expressions: 301/301 @@
