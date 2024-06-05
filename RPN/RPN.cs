@@ -106,7 +106,7 @@ static class RPN
     }
 
     // Method to convert infix expression to postfix (based on shunting yard algorithm)
-    public static string InfixToPostfix(string input)
+    private static string InfixToPostfix(string input)
     {
         // Tokenize the infix expression
         string[] tokens = HandleConstants(Tokenizer.Tokenize(input));
