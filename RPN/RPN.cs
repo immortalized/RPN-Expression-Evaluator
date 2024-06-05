@@ -47,9 +47,9 @@ static class RPN
                     "sin" => Math.Sin(n * Math.PI / 180.0),
                     "cos" => Math.Cos(n * Math.PI / 180.0),
                     "tan" => Math.Tan(n * Math.PI / 180.0),
-                    "asin" => Math.Asin(n * Math.PI / 180.0),
-                    "acos" => Math.Acos(n * Math.PI / 180.0),
-                    "atan" => Math.Atan(n * Math.PI / 180.0),
+                    "sinh" => Math.Sinh(n),
+                    "cosh" => Math.Cosh(n),
+                    "tanh" => Math.Tanh(n),
                     "exp" => Math.Exp(n),
                     "log" => Math.Log10(n),
                     "lg" => Math.Log2(n),
@@ -237,7 +237,7 @@ static class RPN
         // Check if the token is one of the supported functions
         return token switch
         {
-            "sqrt" or "sin" or "cos" or "tan" or "asin" or "acos" or "atan" or "exp" or "log" or "lg" or "ln" => true,
+            "sqrt" or "sin" or "cos" or "tan" or "sinh" or "cosh" or "tanh" or "exp" or "log" or "lg" or "ln" => true,
             _ => false
         };
     }
