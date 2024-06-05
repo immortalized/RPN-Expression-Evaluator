@@ -28,7 +28,7 @@ class Program
 
 ## Testing 🧪
 
-The algorithm passed the tests including edge cases and hard expressions.
+The algorithm did pass a basic test. See the results below.
 
 <details>
   <summary>
