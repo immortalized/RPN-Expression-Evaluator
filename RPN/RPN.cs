@@ -106,7 +106,7 @@ static class RPN
     }
 
     // Method to convert infix expression to postfix (based on shunting yard algorithm)
-    private static string InfixToPostfix(string input)
+    public static string InfixToPostfix(string input)
     {
         // Tokenize the infix expression
         string[] tokens = HandleConstants(Tokenizer.Tokenize(input));
@@ -116,14 +116,24 @@ static class RPN
         Stack<string> operators = new Stack<string>();
         // Flag to track if the previous token was an operator
         bool previousWasOperator = true;
+        bool shouldBeNegative = false;
 
         foreach (string token in tokens)
         {
             // Check if token is a numeric value
             if (double.TryParse(token, out _))
             {
-                // Append numeric value to the output with a space separator
-                output.Append(token).Append(' ');
+                if(shouldBeNegative)
+                {
+                    output.Append(token).Append(' ').Append("- ");
+                    operators.Pop();
+                    shouldBeNegative = false;
+                } else
+                {
+                    // Append numeric value to the output with a space separator
+                    output.Append(token).Append(' ');
+                }
+
                 previousWasOperator = false;
             }
             else if (IsFunction(token))
@@ -143,6 +153,7 @@ static class RPN
                 if (token == "-" && previousWasOperator)
                 {
                     output.Append("0 ");
+                    shouldBeNegative = true;
                 }
                 
                 //Only set to true when token is binary operator
@@ -156,6 +167,7 @@ static class RPN
             {
                 // Push opening parenthesis onto the stack
                 operators.Push(token);
+                shouldBeNegative = false;
                 previousWasOperator = true;
             }
             else if (token == ")")
