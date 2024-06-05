@@ -106,7 +106,7 @@ static class RPN
     }
 
     // Method to convert infix expression to postfix (based on shunting yard algorithm)
-    private static string InfixToPostfix(string input)
+    public static string InfixToPostfix(string input)
     {
         // Tokenize the infix expression
         string[] tokens = HandleConstants(Tokenizer.Tokenize(input));
@@ -143,17 +143,17 @@ static class RPN
             // Check if token is an operator
             else if (IsOperator(token))
             {
-                // Pop operators with higher or equal precedence from the stack and append them to the output
-                while (operators.Count > 0 && GetOperatorPrecedence(operators.Peek()) >= GetOperatorPrecedence(token) && operators.Peek() != "(")
-                {
-                    output.Append(operators.Pop()).Append(' ');
-                }
-                
                 // If the token is a minus sign and the previous token was an operator, add a zero before it
                 if (token == "-" && previousWasOperator)
                 {
                     output.Append("0 ");
                     shouldBeNegative = true;
+                }
+
+                // Pop operators with higher or equal precedence from the stack and append them to the output
+                while (operators.Count > 0 && GetOperatorPrecedence(operators.Peek()) >= GetOperatorPrecedence(token) && operators.Peek() != "(" && !shouldBeNegative)
+                {
+                    output.Append(operators.Pop()).Append(' ');
                 }
                 
                 //Only set to true when token is binary operator
