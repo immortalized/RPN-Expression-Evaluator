@@ -24,7 +24,7 @@ static class RPN
         // Tokenize the postfix expression
         string[] tokens = Tokenizer.Tokenize(input);
         // Stack to store operands during evaluation
-        Stack<double> stack = new Stack<double>();
+        Stack<double> operands = new Stack<double>();
 
         foreach (string token in tokens)
         {
@@ -32,16 +32,16 @@ static class RPN
             if (double.TryParse(token, out double number))
             {
                 // Push numeric value onto the stack
-                stack.Push(number);
+                operands.Push(number);
             }
             // Check if token is a function
             else if (IsFunction(token))
             {
                 //Pop one operand from the stack
-                double n = stack.Pop();
+                double n = operands.Pop();
 
                 // Perform the operation based on the function
-                stack.Push(token switch
+                operands.Push(token switch
                 {
                     "sqrt" => Math.Sqrt(n),
                     "sin" => Math.Sin(n * Math.PI / 180.0),
@@ -61,25 +61,25 @@ static class RPN
             else if (IsOperator(token))
             {
                 // Ensure there are enough operands on the stack for the operation
-                if (stack.Count < 1)
+                if (operands.Count < 1)
                     throw new InvalidOperationException("Insufficient operands.");
 
                 // Perform the operation based on the operator
                 if (token == "!")
                 {
-                    double n = stack.Pop();
-                    stack.Push(Factorial(n));
+                    double n = operands.Pop();
+                    operands.Push(Factorial(n));
                 }
                 else
                 {
                     // Ensure there are enough operands on the stack for the operation
-                    if (stack.Count < 2)
+                    if (operands.Count < 2)
                         throw new InvalidOperationException("Insufficient operands.");
 
-                    double n2 = stack.Pop();
-                    double n1 = stack.Pop();
+                    double n2 = operands.Pop();
+                    double n1 = operands.Pop();
 
-                    stack.Push(token switch
+                    operands.Push(token switch
                     {
                         "+" => n1 + n2,
                         "-" => n1 - n2,
@@ -98,11 +98,11 @@ static class RPN
         }
 
         // After evaluation, there should be only one value left on the stack, which is the result
-        if (stack.Count != 1)
+        if (operands.Count != 1)
             throw new InvalidOperationException("The input has too many operands.");
 
         // Return the final result
-        return stack.Pop();
+        return operands.Pop();
     }
 
     // Method to convert infix expression to postfix (based on shunting yard algorithm)
