@@ -43,7 +43,7 @@ static class RPN
                 // Perform the operation based on the function
                 operands.Push(token switch
                 {
-                    "sqrt" => Math.Sqrt(n),
+                    "sqrt" => n < 0 ? throw new InvalidOperationException("Negative number under square root.") : Math.Sqrt(n),
                     "sin" => Math.Sin(n),
                     "cos" => Math.Cos(n),
                     "tan" => Math.Tan(n),
