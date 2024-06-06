@@ -38,63 +38,63 @@ The algorithm did pass a basic test. See the results below.
 ```diff
 + Expression '5! + 3!' is correct. Expected: 126, Actual: 126
 + Expression 'sqrt(16) + exp(1)' is correct. Expected: 6.718281828459045, Actual: 6.718281828459045
-+ Expression 'cos(pi/3) * 2^3' is correct. Expected: 7.998663835673038, Actual: 7.998663835673038
-+ Expression 'sin(pi/6) + 3^2' is correct. Expected: 9.009138395397176, Actual: 9.009138395397176
++ Expression 'cos(pi/3) * 2^3' is correct. Expected: 4.000000000000001, Actual: 4.000000000000001
++ Expression 'sin(pi/6) + 3^2' is correct. Expected: 9.5, Actual: 9.5
 + Expression '7! / 5!' is correct. Expected: 42, Actual: 42
 + Expression '2^3 + sqrt(81)' is correct. Expected: 17, Actual: 17
 + Expression 'exp(2) - 4!' is correct. Expected: -16.610943901069348, Actual: -16.610943901069348
-+ Expression 'sqrt(25) + cos(pi)' is correct. Expected: 5.998497149863864, Actual: 5.998497149863864
++ Expression 'sqrt(25) + cos(pi)' is correct. Expected: 4, Actual: 4
 + Expression '10! / 8!' is correct. Expected: 90, Actual: 90
 + Expression 'exp(1) * 5!' is correct. Expected: 326.1938194150854, Actual: 326.1938194150854
 + Expression '3! * sqrt(49)' is correct. Expected: 42, Actual: 42
-+ Expression 'cos(pi/4) + 2^5' is correct. Expected: 32.99990604980155, Actual: 32.99990604980155
++ Expression 'cos(pi/4) + 2^5' is correct. Expected: 32.707106781186546, Actual: 32.707106781186546
 + Expression 'sqrt(100) - 2!' is correct. Expected: 8, Actual: 8
-+ Expression '4! * cos(pi/3)' is correct. Expected: 23.995991507019113, Actual: 23.995991507019113
++ Expression '4! * cos(pi/3)' is correct. Expected: 12.000000000000004, Actual: 12.000000000000004
 + Expression '2^4 / exp(1)' is correct. Expected: 5.886071058743077, Actual: 5.886071058743077
-+ Expression '5! + sin(pi/2)' is correct. Expected: 120.02741213359205, Actual: 120.02741213359205
++ Expression '5! + sin(pi/2)' is correct. Expected: 121, Actual: 121
 + Expression 'sqrt(64) + exp(2)' is correct. Expected: 15.38905609893065, Actual: 15.38905609893065
-+ Expression 'cos(pi/6) - 2^2' is correct. Expected: -3.0000417560069996, Actual: -3.0000417560069996
++ Expression 'cos(pi/6) - 2^2' is correct. Expected: -3.133974596215561, Actual: -3.133974596215561
 + Expression '6! / 3!' is correct. Expected: 120, Actual: 120
 + Expression 'exp(3) + sqrt(36)' is correct. Expected: 26.085536923187668, Actual: 26.085536923187668
 + Expression '7! - 4!' is correct. Expected: 5016, Actual: 5016
-+ Expression 'cos(pi) * 3^2' is correct. Expected: 8.986474348774774, Actual: 8.986474348774774
++ Expression 'cos(pi) * 3^2' is correct. Expected: -9, Actual: -9
 + Expression 'sqrt(49) + exp(1)' is correct. Expected: 9.718281828459045, Actual: 9.718281828459045
 + Expression '8! / 6!' is correct. Expected: 56, Actual: 56
-+ Expression '5! * sin(pi/3)' is correct. Expected: 2.19312331542573, Actual: 2.19312331542573
++ Expression '5! * sin(pi/3)' is correct. Expected: 103.92304845413263, Actual: 103.92304845413263
 + Expression '2^6 - sqrt(121)' is correct. Expected: 53, Actual: 53
-+ Expression 'cos(pi/2) + 3!' is correct. Expected: 6.999624216859481, Actual: 6.999624216859481
++ Expression 'cos(pi/2) + 3!' is correct. Expected: 6, Actual: 6
 + Expression '9! / 7!' is correct. Expected: 72, Actual: 72
 + Expression 'exp(2) * sqrt(25)' is correct. Expected: 36.945280494653254, Actual: 36.945280494653254
-+ Expression '4! + cos(pi/4)' is correct. Expected: 24.99990604980155, Actual: 24.99990604980155
++ Expression '4! + cos(pi/4)' is correct. Expected: 24.707106781186546, Actual: 24.707106781186546
 + Expression '3! + 4!' is correct. Expected: 30, Actual: 30
 + Expression 'sqrt(49) * exp(1)' is correct. Expected: 19.027972799213316, Actual: 19.027972799213316
-+ Expression 'sin(pi/4) + 5^2' is correct. Expected: 25.01370735460471, Actual: 25.01370735460471
++ Expression 'sin(pi/4) + 5^2' is correct. Expected: 25.707106781186546, Actual: 25.707106781186546
 + Expression '7! - 6!' is correct. Expected: 4320, Actual: 4320
-+ Expression '2^5 / cos(pi/6)' is correct. Expected: 32.00133624802037, Actual: 32.00133624802037
++ Expression '2^5 / cos(pi/6)' is correct. Expected: 36.95041722813605, Actual: 36.95041722813605
 + Expression 'sqrt(36) + exp(3)' is correct. Expected: 26.085536923187668, Actual: 26.085536923187668
-+ Expression 'cos(pi/3) - 2^4' is correct. Expected: -15.00016702054087, Actual: -15.00016702054087
++ Expression 'cos(pi/3) - 2^4' is correct. Expected: -15.5, Actual: -15.5
 + Expression '4! + sqrt(64)' is correct. Expected: 32, Actual: 32
 + Expression 'exp(2) / 3!' is correct. Expected: 1.231509349821775, Actual: 1.231509349821775
-+ Expression 'sin(pi/2) * sqrt(16)' is correct. Expected: 0.10964853436817716, Actual: 0.10964853436817716
++ Expression 'sin(pi/2) * sqrt(16)' is correct. Expected: 4, Actual: 4
 + Expression '5! / (2! * 3!)' is correct. Expected: 10, Actual: 10
-+ Expression '2^3 + cos(pi/2)' is correct. Expected: 8.999624216859482, Actual: 8.999624216859482
++ Expression '2^3 + cos(pi/2)' is correct. Expected: 8, Actual: 8
 + Expression 'sqrt(81) - exp(1)' is correct. Expected: 6.281718171540955, Actual: 6.281718171540955
 + Expression '3! * 2^2' is correct. Expected: 24, Actual: 24
-+ Expression 'cos(pi/4) + sqrt(100)' is correct. Expected: 10.99990604980155, Actual: 10.99990604980155
++ Expression 'cos(pi/4) + sqrt(100)' is correct. Expected: 10.707106781186548, Actual: 10.707106781186548
 + Expression 'exp(1) + 4!' is correct. Expected: 26.718281828459045, Actual: 26.718281828459045
 + Expression '6! / (3! * 3!)' is correct. Expected: 20, Actual: 20
-+ Expression 'sqrt(121) * sin(pi/6)' is correct. Expected: 0.10052234936893649, Actual: 0.10052234936893649
-+ Expression 'cos(pi/6) + 5!' is correct. Expected: 120.999958243993, Actual: 120.999958243993
++ Expression 'sqrt(121) * sin(pi/6)' is correct. Expected: 5.499999999999999, Actual: 5.499999999999999
++ Expression 'cos(pi/6) + 5!' is correct. Expected: 120.86602540378443, Actual: 120.86602540378443
 + Expression '2^6 - exp(2)' is correct. Expected: 56.61094390106935, Actual: 56.61094390106935
 + Expression '7! + sqrt(49)' is correct. Expected: 5047, Actual: 5047
 + Expression 'sqrt(25) * exp(2)' is correct. Expected: 36.945280494653254, Actual: 36.945280494653254
-+ Expression '3^3 + cos(pi)' is correct. Expected: 27.998497149863862, Actual: 27.998497149863862
-+ Expression '4! - sin(pi/3)' is correct. Expected: 23.98172397237145, Actual: 23.98172397237145
++ Expression '3^3 + cos(pi)' is correct. Expected: 26, Actual: 26
++ Expression '4! - sin(pi/3)' is correct. Expected: 23.133974596215563, Actual: 23.133974596215563
 + Expression 'exp(3) + 2^3' is correct. Expected: 28.085536923187668, Actual: 28.085536923187668
-+ Expression 'cos(pi/2) * sqrt(64)' is correct. Expected: 7.996993734875853, Actual: 7.996993734875853
-+ Expression 'sin(pi/4) / exp(1)' is correct. Expected: 0.005042653951918582, Actual: 0.005042653951918582
++ Expression 'cos(pi/2) * sqrt(64)' is correct. Expected: 4.898587196589413E-16, Actual: 4.898587196589413E-16
++ Expression 'sin(pi/4) / exp(1)' is correct. Expected: 0.2601300475114444, Actual: 0.2601300475114444
 + Expression 'sqrt(16) + 3!' is correct. Expected: 10, Actual: 10
-+ Expression '2^5 * cos(pi/4)' is correct. Expected: 31.996993593649616, Actual: 31.996993593649616
++ Expression '2^5 * cos(pi/4)' is correct. Expected: 22.627416997969522, Actual: 22.627416997969522
 + Expression '4! / sqrt(49)' is correct. Expected: 3.4285714285714284, Actual: 3.4285714285714284
 + Expression 'sinh(0.5) + cosh(0.8)' is correct. Expected: 1.8585302517985922, Actual: 1.8585302517985922
 + Expression 'tanh(1) + tanh(2)' is correct. Expected: 1.7256217360315818, Actual: 1.7256217360315818
@@ -122,8 +122,8 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'log(30) * lg(6) + 2^3' is correct. Expected: 11.81830305246851, Actual: 11.81830305246851
 + Expression 'sinh(0.5) + cosh(0.7) - sqrt(49)' is correct. Expected: -5.22373568887531, Actual: -5.22373568887531
 + Expression 'sqrt(20) + exp(1) * log(5)' is correct. Expected: 6.37213341642412, Actual: 6.37213341642412
-+ Expression 'cos(pi/5) * sqrt(25) + 3^3' is correct. Expected: 31.99969935767021, Actual: 31.99969935767021
-+ Expression 'tanh(3) / sin(pi/4) + lg(7)' is correct. Expected: 75.40011861586339, Actual: 75.40011861586339
++ Expression 'cos(pi/5) * sqrt(25) + 3^3' is correct. Expected: 31.045084971874736, Actual: 31.045084971874736
++ Expression 'tanh(3) / sin(pi/4) + lg(7)' is correct. Expected: 4.214574850025198, Actual: 4.214574850025198
 + Expression 'sqrt(18) + exp(2) / log(10)' is correct. Expected: 11.631696786049936, Actual: 11.631696786049936
 + Expression 'cosh(0.6) * tanh(0.5) - sqrt(16)' is correct. Expected: -3.452176183315266, Actual: -3.452176183315266
 + Expression 'log(40) + lg(8) * sqrt(9)' is correct. Expected: 10.602059991327963, Actual: 10.602059991327963
@@ -131,11 +131,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.9) + cosh(0.1) + 2^6' is correct. Expected: 66.03152089376398, Actual: 66.03152089376398
 + Expression 'tanh(4) * log(15) + lg(3)' is correct. Expected: 2.7602649550625076, Actual: 2.7602649550625076
 + Expression 'sqrt(22) + exp(1) / log(8)' is correct. Expected: 7.700394685083394, Actual: 7.700394685083394
-+ Expression 'cos(pi/6) * sqrt(30) + 4!' is correct. Expected: 29.476996867982212, Actual: 29.476996867982212
++ Expression 'cos(pi/6) * sqrt(30) + 4!' is correct. Expected: 28.74341649025257, Actual: 28.74341649025257
 + Expression 'sinh(0.4) + cosh(0.2) * sqrt(5)' is correct. Expected: 2.6916909329547347, Actual: 2.6916909329547347
 + Expression 'log(50) + lg(10) - 3!' is correct. Expected: -0.9791019007766195, Actual: -0.9791019007766195
 + Expression 'sqrt(25) * exp(2) + 2^4' is correct. Expected: 52.945280494653254, Actual: 52.945280494653254
-+ Expression 'tanh(1) / sin(pi/3) + lg(9)' is correct. Expected: 44.84168056205057, Actual: 44.84168056205057
++ Expression 'tanh(1) / sin(pi/3) + lg(9)' is correct. Expected: 4.049338183350925, Actual: 4.049338183350925
 + Expression 'sqrt(14) + exp(1) * log(4)' is correct. Expected: 5.378226120842951, Actual: 5.378226120842951
 + Expression 'cosh(0.8) + tanh(0.3) / 2!' is correct. Expected: 1.4830912525306401, Actual: 1.4830912525306401
 + Expression 'log(60) * lg(12) + 3^2' is correct. Expected: 15.374605553235797, Actual: 15.374605553235797
@@ -143,11 +143,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.2) + cosh(0.5) + 2^5' is correct. Expected: 33.328961967747475, Actual: 33.328961967747475
 + Expression 'tanh(2) * log(18) + lg(2)' is correct. Expected: 2.2101173154304483, Actual: 2.2101173154304483
 + Expression 'sqrt(19) + exp(2) / log(5)' is correct. Expected: 14.930248290569988, Actual: 14.930248290569988
-+ Expression 'cos(pi/4) * sqrt(28) + 5!' is correct. Expected: 125.29100548440773, Actual: 125.29100548440773
++ Expression 'cos(pi/4) * sqrt(28) + 5!' is correct. Expected: 123.74165738677394, Actual: 123.74165738677394
 + Expression 'sinh(0.3) + cosh(0.1) * sqrt(7)' is correct. Expected: 2.9635113887061633, Actual: 2.9635113887061633
 + Expression 'log(70) + lg(15) - 4!' is correct. Expected: -18.248011364377223, Actual: -18.248011364377223
 + Expression 'sqrt(24) * exp(2) + 3^4' is correct. Expected: 117.19883424636022, Actual: 117.19883424636022
-+ Expression 'tanh(0.5) / sin(pi/6) + lg(5)' is correct. Expected: 52.89066988984336, Actual: 52.89066988984336
++ Expression 'tanh(0.5) / sin(pi/6) + lg(5)' is correct. Expected: 3.2461624094073818, Actual: 3.2461624094073818
 + Expression 'sqrt(17) + exp(1) * log(6)' is correct. Expected: 6.238340029328203, Actual: 6.238340029328203
 + Expression 'cosh(0.7) + tanh(0.2) / 3!' is correct. Expected: 1.2880648923350937, Actual: 1.2880648923350937
 + Expression 'log(80) * lg(18) + 2^5' is correct. Expected: 39.93574251675223, Actual: 39.93574251675223
@@ -155,11 +155,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.1) + cosh(0.6) + 3^3' is correct. Expected: 28.285631968262113, Actual: 28.285631968262113
 + Expression 'tanh(1) * log(20) + lg(4)' is correct. Expected: 2.9908568414208423, Actual: 2.9908568414208423
 + Expression 'sqrt(27) + exp(2) / log(7)' is correct. Expected: 13.93958306515138, Actual: 13.93958306515138
-+ Expression 'cos(pi/3) * sqrt(35) + 4!' is correct. Expected: 29.915091676254413, Actual: 29.915091676254413
++ Expression 'cos(pi/3) * sqrt(35) + 4!' is correct. Expected: 26.95803989154981, Actual: 26.95803989154981
 + Expression 'sinh(0.4) + cosh(0.3) * sqrt(9)' is correct. Expected: 3.546767868189397, Actual: 3.546767868189397
 + Expression 'log(90) + lg(20) - 3!' is correct. Expected: 0.27617060432668783, Actual: 0.27617060432668783
 + Expression 'sqrt(26) * exp(2) + 2^6' is correct. Expected: 101.67694123547916, Actual: 101.67694123547916
-+ Expression 'tanh(0.2) / sin(pi/4) + lg(8)' is correct. Expected: 17.39922770781169, Actual: 17.39922770781169
++ Expression 'tanh(0.2) / sin(pi/4) + lg(8)' is correct. Expected: 3.279130854739792, Actual: 3.279130854739792
 + Expression 'sqrt(16) + exp(1) * log(8)' is correct. Expected: 6.454853101103516, Actual: 6.454853101103516
 + Expression 'cosh(0.2) + tanh(0.1) / 2!' is correct. Expected: 1.0699007529315538, Actual: 1.0699007529315538
 + Expression 'log(100) * lg(25) + 3^3' is correct. Expected: 36.28771237954945, Actual: 36.28771237954945
@@ -167,22 +167,22 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.7) + cosh(0.8) + 2^7' is correct. Expected: 130.09601864814437, Actual: 130.09601864814437
 + Expression 'tanh(0.8) * log(30) + lg(9)' is correct. Expected: 4.1507878287203495, Actual: 4.1507878287203495
 + Expression 'sqrt(31) + exp(1) / log(2)' is correct. Expected: 14.597701138609914, Actual: 14.597701138609914
-+ Expression 'cos(pi/4) * sqrt(45) + 5!' is correct. Expected: 126.70757369540867, Actual: 126.70757369540867
++ Expression 'cos(pi/4) * sqrt(45) + 5!' is correct. Expected: 124.74341649025257, Actual: 124.74341649025257
 + Expression 'sinh(0.2) + cosh(0.1) * sqrt(11)' is correct. Expected: 3.5345577407254765, Actual: 3.5345577407254765
 + Expression 'log(110) + lg(12) - 4!' is correct. Expected: -18.373644814120617, Actual: -18.373644814120617
 + Expression 'sqrt(34) * exp(2) + 3^5' is correct. Expected: 286.0852306611779, Actual: 286.0852306611779
-+ Expression 'tanh(0.5) / sin(pi/2) + lg(7)' is correct. Expected: 19.66547928907616, Actual: 19.66547928907616
++ Expression 'tanh(0.5) / sin(pi/2) + lg(7)' is correct. Expected: 3.2694720793176137, Actual: 3.2694720793176137
 + Expression 'sqrt(35) + exp(2) * log(9)' is correct. Expected: 12.967031217331147, Actual: 12.967031217331147
 + Expression 'log(120) * lg(18) + 2^7' is correct. Expected: 136.67002986042397, Actual: 136.67002986042397
 + Expression 'sqrt(40) + exp(3) - 5!' is correct. Expected: -93.58990775647557, Actual: -93.58990775647557
 + Expression 'sinh(0.6) + cosh(0.4) + 3^3' is correct. Expected: 28.717725953986697, Actual: 28.717725953986697
 + Expression 'tanh(0.6) * log(35) + lg(3)' is correct. Expected: 2.414203575354975, Actual: 2.414203575354975
 + Expression 'sqrt(36) + exp(1) / log(10)' is correct. Expected: 8.718281828459045, Actual: 8.718281828459045
-+ Expression 'cos(pi/6) * sqrt(50) + 4!' is correct. Expected: 31.070772552308426, Actual: 31.070772552308426
++ Expression 'cos(pi/6) * sqrt(50) + 4!' is correct. Expected: 30.123724356957947, Actual: 30.123724356957947
 + Expression 'sinh(0.5) + cosh(0.2) * sqrt(13)' is correct. Expected: 4.198998297274519, Actual: 4.198998297274519
 + Expression 'log(130) + lg(15) - 3!' is correct. Expected: 0.020833947915355644, Actual: 0.020833947915355644
 + Expression 'sqrt(42) * exp(2) + 2^8' is correct. Expected: 303.88655658315867, Actual: 303.88655658315867
-+ Expression 'tanh(0.1) / sin(pi/3) + lg(10)' is correct. Expected: 8.77541047358935, Actual: 8.77541047358935
++ Expression 'tanh(0.1) / sin(pi/3) + lg(10)' is correct. Expected: 3.437014781939979, Actual: 3.437014781939979
 + Expression 'sqrt(44) + exp(1) * log(12)' is correct. Expected: 9.566768351455849, Actual: 9.566768351455849
 + Expression 'cosh(0.9) + tanh(0.4) / 2!' is correct. Expected: 1.6230608665763868, Actual: 1.6230608665763868
 + Expression 'log(140) * lg(20) + 3^2' is correct. Expected: 18.275411052623205, Actual: 18.275411052623205
@@ -190,11 +190,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.9) + cosh(0.5) + 2^9' is correct. Expected: 514.1541426909146, Actual: 514.1541426909146
 + Expression 'tanh(1) * log(40) + lg(2)' is correct. Expected: 2.2201195268859193, Actual: 2.2201195268859193
 + Expression 'sqrt(52) + exp(2) / log(15)' is correct. Expected: 13.493825972292017, Actual: 13.493825972292017
-+ Expression 'cos(pi/5) * sqrt(55) + 5!' is correct. Expected: 127.4157525624574, Actual: 127.4157525624574
++ Expression 'cos(pi/5) * sqrt(55) + 5!' is correct. Expected: 125.99983060971816, Actual: 125.99983060971816
 + Expression 'sinh(0.8) + cosh(0.4) * sqrt(14)' is correct. Expected: 4.933108407914203, Actual: 4.933108407914203
 + Expression 'log(150) + lg(25) - 4!' is correct. Expected: -17.180052551169595, Actual: -17.180052551169595
 + Expression 'sqrt(54) * exp(2) + 3^6' is correct. Expected: 783.2982513695404, Actual: 783.2982513695404
-+ Expression 'tanh(0.4) / sin(pi/4) + lg(5)' is correct. Expected: 30.040548734112686, Actual: 30.040548734112686
++ Expression 'tanh(0.4) / sin(pi/4) + lg(5)' is correct. Expected: 2.8592570703182845, Actual: 2.8592570703182845
 + Expression 'sqrt(55) + exp(1) * log(18)' is correct. Expected: 10.828382927482243, Actual: 10.828382927482243
 + Expression 'cosh(0.6) + tanh(0.3) / 3!' is correct. Expected: 1.2340173203175326, Actual: 1.2340173203175326
 + Expression 'log(160) * lg(30) + 2^8' is correct. Expected: 266.81537561448715, Actual: 266.81537561448715
@@ -202,22 +202,22 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.4) + cosh(0.6) + 3^4' is correct. Expected: 82.59621754404509, Actual: 82.59621754404509
 + Expression 'tanh(0.3) * log(45) + lg(4)' is correct. Expected: 2.481601656325557, Actual: 2.481601656325557
 + Expression 'sqrt(60) + exp(2) / log(20)' is correct. Expected: 13.42535619423769, Actual: 13.42535619423769
-+ Expression 'cos(pi/3) * sqrt(65) + 4!' is correct. Expected: 32.06091118564879, Actual: 32.06091118564879
++ Expression 'cos(pi/3) * sqrt(65) + 4!' is correct. Expected: 28.031128874149275, Actual: 28.031128874149275
 + Expression 'sinh(0.5) + cosh(0.3) * sqrt(15)' is correct. Expected: 4.569673961864031, Actual: 4.569673961864031
 + Expression 'log(170) + lg(35) - 3!' is correct. Expected: 1.3597319383232405, Actual: 1.3597319383232405
 + Expression 'sqrt(62) * exp(2) + 2^9' is correct. Expected: 570.1814859044949, Actual: 570.1814859044949
-+ Expression 'tanh(0.7) / sin(pi/6) + lg(11)' is correct. Expected: 69.59443134779389, Actual: 69.59443134779389
++ Expression 'tanh(0.7) / sin(pi/6) + lg(11)' is correct. Expected: 4.668167172871625, Actual: 4.668167172871625
 + Expression 'sqrt(64) + exp(1) * log(22)' is correct. Expected: 11.64908317939028, Actual: 11.64908317939028
 + Expression 'log(180) * lg(40) + 3^2' is correct. Expected: 21.002398106536287, Actual: 21.002398106536287
 + Expression 'sqrt(66) + exp(3) - 4!' is correct. Expected: 4.209575327823629, Actual: 4.209575327823629
 + Expression 'sinh(0.2) + cosh(0.7) + 2^10' is correct. Expected: 1025.4565050081721, Actual: 1025.4565050081721
 + Expression 'tanh(0.9) * log(50) + lg(3)' is correct. Expected: 2.8019310963590733, Actual: 2.8019310963590733
 + Expression 'sqrt(68) + exp(2) / log(25)' is correct. Expected: 13.531885924749979, Actual: 13.531885924749979
-+ Expression 'cos(pi/4) * sqrt(75) + 5!' is correct. Expected: 128.65944040525892, Actual: 128.65944040525892
++ Expression 'cos(pi/4) * sqrt(75) + 5!' is correct. Expected: 126.12372435695795, Actual: 126.12372435695795
 + Expression 'sinh(0.3) + cosh(0.8) * sqrt(17)' is correct. Expected: 5.818905844454301, Actual: 5.818905844454301
 + Expression 'log(190) + lg(50) - 4!' is correct. Expected: -16.077390209272448, Actual: -16.077390209272448
 + Expression 'sqrt(70) * exp(2) + 3^7' is correct. Expected: 2248.821278717931, Actual: 2248.821278717931
-+ Expression 'tanh(0.6) / sin(pi/4) + lg(7)' is correct. Expected: 41.98702032690516, Actual: 41.98702032690516
++ Expression 'tanh(0.6) / sin(pi/4) + lg(7)' is correct. Expected: 3.5668577033728237, Actual: 3.5668577033728237
 + Expression 'sqrt(72) + exp(1) * log(30)' is correct. Expected: 12.500513239373653, Actual: 12.500513239373653
 + Expression 'cosh(0.2) + tanh(0.4) / 3!' is correct. Expected: 1.0833915826616134, Actual: 1.0833915826616134
 + Expression 'log(200) * lg(60) + 2^9' is correct. Expected: 525.5919324416006, Actual: 525.5919324416006
@@ -225,11 +225,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.6) + cosh(0.2) + 3^4' is correct. Expected: 82.65672033776731, Actual: 82.65672033776731
 + Expression 'tanh(0.5) * log(55) + lg(6)' is correct. Expected: 3.389213959391621, Actual: 3.389213959391621
 + Expression 'sqrt(76) + exp(2) / log(35)' is correct. Expected: 13.50324508674791, Actual: 13.50324508674791
-+ Expression 'cos(pi/6) * sqrt(80) + 4!' is correct. Expected: 32.94389843291868, Actual: 32.94389843291868
++ Expression 'cos(pi/6) * sqrt(80) + 4!' is correct. Expected: 31.745966692414836, Actual: 31.745966692414836
 + Expression 'sinh(0.7) + cosh(0.3) * sqrt(18)' is correct. Expected: 5.1935794136954545, Actual: 5.1935794136954545
 + Expression 'log(210) + lg(70) - 3!' is correct. Expected: 2.451502311678885, Actual: 2.451502311678885
 + Expression 'sqrt(78) * exp(2) + 2^10' is correct. Expected: 1089.258376493637, Actual: 1089.258376493637
-+ Expression 'tanh(0.2) / sin(pi/5) + lg(8)' is correct. Expected: 20.998831709101452, Actual: 20.998831709101452
++ Expression 'tanh(0.2) / sin(pi/5) + lg(8)' is correct. Expected: 3.3357949513961147, Actual: 3.3357949513961147
 + Expression 'sqrt(80) + exp(1) * log(40)' is correct. Expected: 13.299122472527214, Actual: 13.299122472527214
 + Expression 'cosh(0.5) + tanh(0.3) / 2!' is correct. Expected: 1.273282271432176, Actual: 1.273282271432176
 + Expression 'log(220) * lg(80) + 3^2' is correct. Expected: 23.808627755991278, Actual: 23.808627755991278
@@ -237,11 +237,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.4) + cosh(0.9) + 2^11' is correct. Expected: 2049.8438387112515, Actual: 2049.8438387112515
 + Expression 'tanh(0.9) * log(60) + lg(2)' is correct. Expected: 2.273685953541536, Actual: 2.273685953541536
 + Expression 'sqrt(84) + exp(2) / log(45)' is correct. Expected: 13.634665162255866, Actual: 13.634665162255866
-+ Expression 'cos(pi/5) * sqrt(90) + 5!' is correct. Expected: 129.4862625517912, Actual: 129.4862625517912
++ Expression 'cos(pi/5) * sqrt(90) + 5!' is correct. Expected: 127.67500910402539, Actual: 127.67500910402539
 + Expression 'sinh(0.8) + cosh(0.4) * sqrt(19)' is correct. Expected: 5.600391201685274, Actual: 5.600391201685274
 + Expression 'log(230) + lg(90) - 4!' is correct. Expected: -15.146419067652733, Actual: -15.146419067652733
-+ Expression 'sqrt(88) * exp(2) + 3^8' is correct. Expected: 6630.315490353288, Actual: 6630.315490353288
-+ Expression 'tanh(0.4) / sin(pi/3) + lg(9)' is correct. Expected: 23.95939687013944, Actual: 23.95939687013944
+! Error evaluating expression 'sqrt(-88) * exp(2) + 3^8': Invalid input expression. Negative number under square root.
++ Expression 'tanh(0.4) / sin(pi/3) + lg(9)' is correct. Expected: 3.6086522727150583, Actual: 3.6086522727150583
 + Expression 'sqrt(90) + exp(1) * log(50)' is correct. Expected: 14.105112270388723, Actual: 14.105112270388723
 + Expression 'cosh(0.6) + tanh(0.2) / 3!' is correct. Expected: 1.2183611049464182, Actual: 1.2183611049464182
 + Expression 'log(240) * lg(100) + 2^10' is correct. Expected: 1039.813781191217, Actual: 1039.813781191217
@@ -249,11 +249,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.5) + cosh(0.3) + 3^5' is correct. Expected: 244.5664338196226, Actual: 244.5664338196226
 + Expression 'tanh(0.3) * log(70) + lg(3)' is correct. Expected: 2.1224628309870193, Actual: 2.1224628309870193
 + Expression 'sqrt(95) + exp(2) / log(60)' is correct. Expected: 13.90226542598748, Actual: 13.90226542598748
-+ Expression 'cos(pi/4) * sqrt(100) + 4!' is correct. Expected: 33.9990604980155, Actual: 33.9990604980155
++ Expression 'cos(pi/4) * sqrt(100) + 4!' is correct. Expected: 31.071067811865476, Actual: 31.071067811865476
 + Expression 'sinh(0.2) + cosh(0.8) * sqrt(21)' is correct. Expected: 6.330232881062244, Actual: 6.330232881062244
 + Expression 'log(250) + lg(120) - 3!' is correct. Expected: 3.304830604280557, Actual: 3.304830604280557
 + Expression 'sqrt(98) * exp(2) + 2^11' is correct. Expected: 2121.1479234377034, Actual: 2121.1479234377034
-+ Expression 'tanh(0.1) / sin(pi/4) + lg(10)' is correct. Expected: 10.59306081882865, Actual: 10.59306081882865
++ Expression 'tanh(0.1) / sin(pi/4) + lg(10)' is correct. Expected: 3.4628799246205033, Actual: 3.4628799246205033
 + Expression 'sqrt(100) + exp(1) * log(70)' is correct. Expected: 15.015496473896155, Actual: 15.015496473896155
 + Expression 'cosh(0.8) + tanh(0.6) / 2!' is correct. Expected: 1.6059597298038624, Actual: 1.6059597298038624
 + Expression 'log(260) * lg(150) + 3^2' is correct. Expected: 26.45740447486086, Actual: 26.45740447486086
@@ -261,11 +261,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.3) + cosh(0.2) + 2^12' is correct. Expected: 4097.324587049066, Actual: 4097.324587049066
 + Expression 'tanh(0.5) * log(80) + lg(4)' is correct. Expected: 2.879450534798706, Actual: 2.879450534798706
 + Expression 'sqrt(108) + exp(2) / log(80)' is correct. Expected: 14.274967330864055, Actual: 14.274967330864055
-+ Expression 'cos(pi/6) * sqrt(110) + 5!' is correct. Expected: 130.48765054100545, Actual: 130.48765054100545
++ Expression 'cos(pi/6) * sqrt(110) + 5!' is correct. Expected: 129.08295106229247, Actual: 129.08295106229247
 + Expression 'sinh(0.7) + cosh(0.1) * sqrt(22)' is correct. Expected: 5.472471090376709, Actual: 5.472471090376709
 + Expression 'log(270) + lg(200) - 4!' is correct. Expected: -13.924780046066289, Actual: -13.924780046066289
 + Expression 'sqrt(110) * exp(2) + 3^9' is correct. Expected: 19760.49707416184, Actual: 19760.49707416184
-+ Expression 'tanh(0.3) / sin(pi/5) + lg(11)' is correct. Expected: 30.024488892668767, Actual: 30.024488892668767
++ Expression 'tanh(0.3) / sin(pi/5) + lg(11)' is correct. Expected: 3.955042237167478, Actual: 3.955042237167478
 + Expression 'sqrt(115) + exp(1) * log(90)' is correct. Expected: 16.03598719657473, Actual: 16.03598719657473
 + Expression 'cosh(0.3) + tanh(0.2) / 3!' is correct. Expected: 1.0782344008330111, Actual: 1.0782344008330111
 + Expression 'log(280) * lg(250) + 2^10' is correct. Expected: 1043.4935329881505, Actual: 1043.4935329881505
@@ -273,11 +273,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.4) + cosh(0.5) + 3^4' is correct. Expected: 82.5383782910092, Actual: 82.5383782910092
 + Expression 'tanh(0.7) * log(90) + lg(5)' is correct. Expected: 3.5030092962650743, Actual: 3.5030092962650743
 + Expression 'sqrt(120) + exp(2) / log(100)' is correct. Expected: 14.648979199568647, Actual: 14.648979199568647
-+ Expression 'cos(pi/3) * sqrt(125) + 4!' is correct. Expected: 35.17847254108383, Actual: 35.17847254108383
++ Expression 'cos(pi/3) * sqrt(125) + 4!' is correct. Expected: 29.590169943749476, Actual: 29.590169943749476
 + Expression 'sinh(0.1) + cosh(0.2) * sqrt(23)' is correct. Expected: 4.99223505250114, Actual: 4.99223505250114
 + Expression 'log(290) + lg(300) - 3!' is correct. Expected: 4.691216688394837, Actual: 4.691216688394837
 + Expression 'sqrt(126) * exp(2) + 2^12' is correct. Expected: 4178.9419490015525, Actual: 4178.9419490015525
-+ Expression 'tanh(0.6) / sin(pi/4) + lg(6)' is correct. Expected: 41.76462790556871, Actual: 41.76462790556871
++ Expression 'tanh(0.6) / sin(pi/4) + lg(6)' is correct. Expected: 3.344465282036376, Actual: 3.344465282036376
 + Expression 'sqrt(130) + exp(1) * log(110)' is correct. Expected: 16.9508348918062, Actual: 16.9508348918062
 + Expression 'cosh(0.5) + tanh(0.7) / 2!' is correct. Expected: 1.4298098537649624, Actual: 1.4298098537649624
 + Expression 'log(300) * lg(350) + 3^3' is correct. Expected: 47.93467467324285, Actual: 47.93467467324285
@@ -285,11 +285,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.5) + cosh(0.9) + 2^13' is correct. Expected: 8193.954181690942, Actual: 8193.954181690942
 + Expression 'tanh(0.8) * log(100) + lg(2)' is correct. Expected: 2.328073540535698, Actual: 2.328073540535698
 + Expression 'sqrt(134) + exp(2) / log(120)' is correct. Expected: 15.129666619644741, Actual: 15.129666619644741
-+ Expression 'cos(pi/4) * sqrt(140) + 5!' is correct. Expected: 131.8310479324599, Actual: 131.8310479324599
++ Expression 'cos(pi/4) * sqrt(140) + 5!' is correct. Expected: 128.36660026534076, Actual: 128.36660026534076
 + Expression 'sinh(0.3) + cosh(0.1) * sqrt(24)' is correct. Expected: 5.228015095661206, Actual: 5.228015095661206
 + Expression 'log(310) + lg(400) - 4!' is correct. Expected: -12.864782116391002, Actual: -12.864782116391002
 + Expression 'sqrt(136) * exp(2) + 3^10' is correct. Expected: 59135.170461322356, Actual: 59135.170461322356
-+ Expression 'tanh(0.9) / sin(pi/6) + lg(7)' is correct. Expected: 81.19068580970725, Actual: 81.19068580970725
++ Expression 'tanh(0.9) / sin(pi/6) + lg(7)' is correct. Expected: 4.239950662455653, Actual: 4.239950662455653
 + Expression 'sqrt(140) + exp(1) * log(130)' is correct. Expected: 17.578453367166706, Actual: 17.578453367166706
 + Expression 'cosh(0.7) + tanh(0.6) / 3!' is correct. Expected: 1.3446772667972822, Actual: 1.3446772667972822
 + Expression 'log(320) * lg(450) + 2^11' is correct. Expected: 2070.079843760094, Actual: 2070.079843760094
@@ -297,11 +297,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.6) + cosh(0.4) + 3^5' is correct. Expected: 244.7177259539867, Actual: 244.7177259539867
 + Expression 'tanh(0.2) * log(110) + lg(3)' is correct. Expected: 1.9878830356590373, Actual: 1.9878830356590373
 + Expression 'sqrt(145) + exp(2) / log(140)' is correct. Expected: 15.484565350382583, Actual: 15.484565350382583
-+ Expression 'cos(pi/5) * sqrt(150) + 4!' is correct. Expected: 36.24671229361282, Actual: 36.24671229361282
++ Expression 'cos(pi/5) * sqrt(150) + 4!' is correct. Expected: 33.90839414729355, Actual: 33.90839414729355
 + Expression 'sinh(0.9) + cosh(0.2) * sqrt(25)' is correct. Expected: 6.126850503803555, Actual: 6.126850503803555
 + Expression 'log(330) + lg(500) - 3!' is correct. Expected: 5.484298224539975, Actual: 5.484298224539975
 + Expression 'sqrt(148) * exp(2) + 2^12' is correct. Expected: 4185.891747145693, Actual: 4185.891747145693
-+ Expression 'tanh(0.4) / sin(pi/3) + lg(8)' is correct. Expected: 23.789471868697127, Actual: 23.789471868697127
++ Expression 'tanh(0.4) / sin(pi/3) + lg(8)' is correct. Expected: 3.438727271272746, Actual: 3.438727271272746
 + Expression 'sqrt(150) + exp(1) * log(150)' is correct. Expected: 18.162678040475512, Actual: 18.162678040475512
 + Expression 'cosh(0.9) + tanh(0.8) / 2!' is correct. Expected: 1.7651047705826988, Actual: 1.7651047705826988
 + Expression 'log(340) * lg(600) + 3^4' is correct. Expected: 104.36255994419584, Actual: 104.36255994419584
@@ -309,11 +309,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.1) + cosh(0.7) + 2^14' is correct. Expected: 16385.355335755652, Actual: 16385.355335755652
 + Expression 'tanh(0.5) * log(120) + lg(4)' is correct. Expected: 2.960825326851853, Actual: 2.960825326851853
 + Expression 'sqrt(156) + exp(2) / log(160)' is correct. Expected: 15.842379785825818, Actual: 15.842379785825818
-+ Expression 'cos(pi/6) * sqrt(165) + 5!' is correct. Expected: 132.84469621304368, Actual: 132.84469621304368
++ Expression 'cos(pi/6) * sqrt(165) + 5!' is correct. Expected: 131.1242977306435, Actual: 131.1242977306435
 + Expression 'sinh(0.2) + cosh(0.3) * sqrt(26)' is correct. Expected: 5.53153748439424, Actual: 5.53153748439424
 + Expression 'log(350) + lg(700) - 4!' is correct. Expected: -12.004720843817395, Actual: -12.004720843817395
 + Expression 'sqrt(160) * exp(2) + 3^11' is correct. Expected: 177240.46498812552, Actual: 177240.46498812552
-+ Expression 'tanh(0.8) / sin(pi/4) + lg(9)' is correct. Expected: 51.613756026270465, Actual: 51.613756026270465
++ Expression 'tanh(0.8) / sin(pi/4) + lg(9)' is correct. Expected: 4.109014807869531, Actual: 4.109014807869531
 + Expression 'sqrt(162) + exp(1) * log(170)' is correct. Expected: 18.790910833646496, Actual: 18.790910833646496
 + Expression 'cosh(0.2) + tanh(0.5) / 3!' is correct. Expected: 1.0970862818290774, Actual: 1.0970862818290774
 + Expression 'log(360) * lg(800) + 2^11' is correct. Expected: 2072.652613694961, Actual: 2072.652613694961
@@ -321,11 +321,11 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.3) + cosh(0.8) + 3^6' is correct. Expected: 730.641955239752, Actual: 730.641955239752
 + Expression 'tanh(0.1) * log(130) + lg(5)' is correct. Expected: 2.532620589562541, Actual: 2.532620589562541
 + Expression 'sqrt(170) + exp(2) / log(180)' is correct. Expected: 16.314752161871894, Actual: 16.314752161871894
-+ Expression 'cos(pi/4) * sqrt(175) + 4!' is correct. Expected: 37.22751371101934, Actual: 37.22751371101934
++ Expression 'cos(pi/4) * sqrt(175) + 4!' is correct. Expected: 33.35414346693486, Actual: 33.35414346693486
 + Expression 'sinh(0.4) + cosh(0.6) * sqrt(28)' is correct. Expected: 6.683644636574717, Actual: 6.683644636574717
 + Expression 'log(370) + lg(900) - 3!' is correct. Expected: 6.381982915284032, Actual: 6.381982915284032
 + Expression 'sqrt(178) * exp(2) + 2^13' is correct. Expected: 8290.582304222917, Actual: 8290.582304222917
-+ Expression 'tanh(0.3) / sin(pi/4) + lg(10)' is correct. Expected: 24.574213517746877, Actual: 24.574213517746877
++ Expression 'tanh(0.3) / sin(pi/4) + lg(10)' is correct. Expected: 3.7339063423067396, Actual: 3.7339063423067396
 + Expression 'sqrt(180) + exp(1) * log(190)' is correct. Expected: 19.61070237000443, Actual: 19.61070237000443
 + Expression 'cosh(0.4) + tanh(0.6) / 2!' is correct. Expected: 1.3495971553374724, Actual: 1.3495971553374724
 + Expression 'log(380) * lg(1000) + 3^2' is correct. Expected: 34.70956682499285, Actual: 34.70956682499285
@@ -333,11 +333,13 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sinh(0.6) + cosh(0.5) + 2^14' is correct. Expected: 16385.764279547355, Actual: 16385.764279547355
 + Expression 'tanh(0.4) * log(140) + lg(6)' is correct. Expected: 3.400381620743947, Actual: 3.400381620743947
 + Expression 'sqrt(190) + exp(2) / log(200)' is correct. Expected: 16.99524378772837, Actual: 16.99524378772837
-+ Expression 'cos(pi/3) * sqrt(195) + 5!' is correct. Expected: 133.96190772884398, Actual: 133.96190772884398
++ Expression 'cos(pi/3) * sqrt(195) + 5!' is correct. Expected: 126.98212002188447, Actual: 126.98212002188447
 + Expression 'sinh(0.7) + cosh(0.7) * sqrt(30)' is correct. Expected: 7.633427480493498, Actual: 7.633427480493498
 + Expression 'log(390) + lg(1100) - 4!' is correct. Expected: -11.305647584561479, Actual: -11.305647584561479
 + Expression 'sqrt(194) * exp(2) + 3^12' is correct. Expected: 531543.9176423477, Actual: 531543.9176423477
-@@ Total correct expressions: 301/301 @@
+! Error evaluating expression 'sqrt(-5!) + 3^2': Invalid input expression. Factorial is not defined for negative numbers or non-integers.
+@@ Total errors in expressions: 2 @@
+@@ Total correct expressions: 300/300 @@
 ```
 </details>
 
@@ -554,7 +556,7 @@ Dictionary<string, double> expressions = new Dictionary<string, double>
     {"cos(pi/5) * sqrt(90) + 5!", Cos(Math.PI / 5) * Math.Sqrt(90) + Factorial(5)},
     {"sinh(0.8) + cosh(0.4) * sqrt(19)", Sinh(0.8) + Cosh(0.4) * Math.Sqrt(19)},
     {"log(230) + lg(90) - 4!", Math.Log10(230) + Math.Log2(90) - Factorial(4)},
-    {"sqrt(88) * exp(2) + 3^8", Math.Sqrt(88) * Math.Exp(2) + Math.Pow(3, 8)},
+    {"sqrt(-88) * exp(2) + 3^8", Math.Sqrt(-88) * Math.Exp(2) + Math.Pow(3, 8)},
     {"tanh(0.4) / sin(pi/3) + lg(9)", Tanh(0.4) / Sin(Math.PI / 3) + Math.Log2(9)},
     {"sqrt(90) + exp(1) * log(50)", Math.Sqrt(90) + Math.Exp(1) * Math.Log10(50)},
     {"cosh(0.6) + tanh(0.2) / 3!", Cosh(0.6) + Tanh(0.2) / Factorial(3)},
@@ -650,7 +652,8 @@ Dictionary<string, double> expressions = new Dictionary<string, double>
     {"cos(pi/3) * sqrt(195) + 5!", Cos(Math.PI / 3) * Math.Sqrt(195) + Factorial(5)},
     {"sinh(0.7) + cosh(0.7) * sqrt(30)", Sinh(0.7) + Cosh(0.7) * Math.Sqrt(30)},
     {"log(390) + lg(1100) - 4!", Math.Log10(390) + Math.Log2(1100) - Factorial(4)},
-    {"sqrt(194) * exp(2) + 3^12", Math.Sqrt(194) * Math.Exp(2) + Math.Pow(3, 12)}
+    {"sqrt(194) * exp(2) + 3^12", Math.Sqrt(194) * Math.Exp(2) + Math.Pow(3, 12)},
+    {"sqrt(-5!) + 3^2", Math.Sqrt(Factorial(-5)) + Math.Pow(3, 2)}
 };
 ```
 </details>
