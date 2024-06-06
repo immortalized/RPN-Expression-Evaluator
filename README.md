@@ -339,7 +339,7 @@ The algorithm did pass a basic test. See the results below.
 + Expression 'sqrt(194) * exp(2) + 3^12' is correct. Expected: 531543.9176423477, Actual: 531543.9176423477
 ! Error evaluating expression 'sqrt(-5!) + 3^2': Invalid input expression. Factorial is not defined for negative numbers or non-integers.
 @@ Total errors in expressions: 2 @@
-@@ Total correct expressions: 300/300 @@
+@@ Total correct expressions: 300/302 @@
 ```
 </details>
 
