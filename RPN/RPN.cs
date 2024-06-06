@@ -123,10 +123,10 @@ static class RPN
             // Check if token is a numeric value
             if (double.TryParse(token, out _))
             {
+                //Convert the infix negative number to postfix properly
                 if(shouldBeNegative)
                 {
-                    output.Append(token).Append(' ').Append("- ");
-                    operators.Pop();
+                    output.Append(token).Append(' ').Append(operators.Pop()).Append(" ");
                     shouldBeNegative = false;
                 } else
                 {
@@ -144,6 +144,7 @@ static class RPN
             else if (IsOperator(token))
             {
                 // If the token is a minus sign and the previous token was an operator, add a zero before it
+                // Since the '-' is unary set shouldBeNegative to true
                 if (token == "-" && previousWasOperator)
                 {
                     output.Append("0 ");
