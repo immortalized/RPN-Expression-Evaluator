@@ -213,7 +213,7 @@ static class RPN
 
     private static double Factorial(double n)
     {
-        if (n < 0 || !int.TryParse(n.ToString(), out _))
+        if (n < 0 || Math.Floor(n) != n)
             throw new ArgumentException("Factorial is not defined for negative numbers or non-integers.");
 
         if (n == 0 || n == 1)
