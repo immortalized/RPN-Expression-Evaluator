@@ -32,7 +32,7 @@ The algorithm did pass a basic test. See the results below.
 
 <details>
   <summary>
-    Results (301 out of 301 correct)
+    Results (300 out of 302 correct, with 2 errors)
   </summary>
     
 ```diff
