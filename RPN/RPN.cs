@@ -44,12 +44,12 @@ static class RPN
                 operands.Push(token switch
                 {
                     "sqrt" => n < 0 ? throw new InvalidOperationException("Negative number under square root.") : Math.Sqrt(n),
-                    "sin" => Math.Sin(n),
-                    "cos" => Math.Cos(n),
-                    "tan" => Math.Tan(n),
-                    "sinh" => Math.Sinh(n),
-                    "cosh" => Math.Cosh(n),
-                    "tanh" => Math.Tanh(n),
+                    "sin" => Math.Round(Math.Sin(Math.PI / 180 * n), 2),
+                    "cos" => Math.Round(Math.Cos(Math.PI / 180 * n), 2),
+                    "tan" => Math.Round(Math.Tan(Math.PI / 180 * n), 2),
+                    "sinh" => Math.Round(Math.Sinh(Math.PI / 180 * n), 2),
+                    "cosh" => Math.Round(Math.Cosh(Math.PI / 180 * n), 2),
+                    "tanh" => Math.Round(Math.Tanh(Math.PI / 180 * n), 2),
                     "exp" => Math.Exp(n),
                     "log" => Math.Log10(n),
                     "lg" => Math.Log2(n),
